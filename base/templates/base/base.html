@@ -1,0 +1,74 @@
+<!--{% load static %}-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" >
+
+    <title>Моя страница</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-header">
+            <div class="header-left">
+                <div class="logo-search">
+                    <a href="#" class="logo-hide"><img src="{% static 'img/logo/mini-dog-logo.png' %}" alt="Logo"></a>
+                    <div class="search-box">
+                        {% load static %}
+                        <input type="text" placeholder="Поиск...">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="search-icon">
+                            <path
+                                d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                                stroke="#4A5568" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="header-right">
+
+                <button class="burger-button" aria-label="Открыть меню">
+                    <span class="burger-icon"></span>
+                </button>
+                <nav class="menu">
+
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li><a href="#">Сообщество</a></li>
+
+                </nav>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div class="two-thirds">
+            <!-- Первая часть занимает 2/3 экрана -->
+            <!-- <h2>Первая часть</h2> -->
+        </div>
+        <div class="one-third">
+            <!-- Вторая часть разделена на три строки -->
+            <div class="row">
+                <!-- <h3>Вторая часть - Строка 1</h3> -->
+            </div>
+            <div class="row">
+                <!-- <h3>Вторая часть - Строка 2</h3> -->
+            </div>
+            <div class="row">
+                <!-- <h3>Вторая часть - Строка 3</h3> -->
+            </div>
+        </div>
+    </div>
+    <script src="{% static '/js/script.js' %}" defer></script>
+</body>
+
+</html>

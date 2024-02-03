@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2e2017;
+}
+
+/* Стили для header и меню */
+body {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    max-width: 1440px;
+    /* background-color: #398360; */
+}
+
+/* Контейнеры для header  */
+.nav-header {
+    background-color: #CDBCA4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    align-items: center;
+
+}
+
+/* .logo-hide {
+    width: 50px;
+    height: 504px;
+} */
+
+.logo-search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    margin-left: 10px;
+    padding: 8px;
+    border: 2px solid #CDBCA4;
+    /* Цвет окантовки */
+    border-radius: 5px;
+    width: 360px;
+    transition: border-color 0.3s;
+
+}
+
+.search-box input:focus {
+    border-color: #AA8B76;
+    /* Новый цвет бордюра при фокусировке */
+    outline: none;
+    /* Убираем стандартную обводку поля ввода */
+}
+
+/* задаем размер и позиционирование иконки поиска(лупы) */
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    /* Задаем внешний отступ для коррекции позиции иконки */
+    cursor: pointer;
+    align-items: center;
+}
+
+/* задаем размер и позиционирование иконки авторизации */
+.enter-icon {
+    width: 32px;
+    height: 32px;
+}
+
+/* Общие настройки для кнопки меню */
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 37%;
+    text-decoration: none;
+    color: #333;
+    align-items: center;
+}
+
+
+/* Стили для кнопки "бургер" */
+.burger-button {
+    display: block;
+    /* Показываем кнопку "бургер" на всех экранах */
+    background: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.menu {
+
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    /*задаем  ширину блока со списком меню */
+    width: 130px;
+    background-color: #ddd9d3;
+    border-radius: 5%;
+    display: none;
+    /* Изначально скрываем меню */
+    transition: display 0.3s;
+    /* Плавное появление/скрытие меню */
+}
+
+.menu.active {
+    display: inline-block;
+    /* Показываем меню, если установлен класс "active" */
+}
+
+/* Стили для значка "бургер" */
+.burger-icon {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.burger-icon:after,
+.burger-icon:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Обновленный стиль значка "бургера" */
+.burger-icon:before {
+    top: -8px;
+    margin-left: -15px;
+
+}
+
+.burger-icon:after {
+    top: 8px;
+    margin-left: -15px;
+}
+
+/* Анимация значка бургера при открытии меню */
+.burger-button.active .burger-icon {
+    background-color: transparent;
+}
+
+.burger-button.active .burger-icon:before {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #333;
+}
+
+.burger-button.active .burger-icon:after {
+    transform: translateY(-9px) rotate(-45deg);
+    background-color: #333;
+}
+
+.main-content {
+    margin-top: 5px;
+    display: flex;
+    height: 85vh
+}
+
+.two-thirds {
+    flex: 2;
+    background-color: #eadfd0;
+    padding: 20px;
+}
+
+.one-third {
+    flex: 1;
+    background-color: #c8a890;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.row {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    .logo-hide {
+        display: none;
+
+    }
+
+    .header-left {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    .nav-header {
+        align-items: flex-start;
+    }
+
+    .search-box input {
+        margin-left: 0;
+    }
+
+    .menu {
+        top: 90px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .search-box input {
+        max-width: 250px;
+
+    }
+}
