@@ -1293,3 +1293,1344 @@
 [INFO    :                base.views] - 2024-02-03 15:45:26,939 : index @ 0009: Index page accessed
 [INFO    :             django.server] - 2024-02-03 15:45:26,955 : log_message @ 0212: "GET / HTTP/1.1" 200 2801
 [WARNING :             django.server] - 2024-02-03 15:45:29,958 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:01:21,394 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:01:24,996 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:01:25,011 : log_message @ 0212: "GET / HTTP/1.1" 200 2812
+[INFO    :             django.server] - 2024-02-05 23:01:25,062 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-05 23:01:25,064 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-05 23:01:25,066 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-05 23:01:25,066 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-05 23:01:43,517 : log_message @ 0212: "GET /user_registration HTTP/1.1" 301 0
+[ERROR   :            django.request] - 2024-02-05 23:01:43,743 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 36, in get
+    return render(request, 'user_registration.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_registration.html
+[ERROR   :             django.server] - 2024-02-05 23:01:43,752 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 90905
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:03:58,959 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:04:00,642 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:04:00,656 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[ERROR   :            django.request] - 2024-02-05 23:04:02,778 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 36, in get
+    return render(request, 'user_registration.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_registration.html
+[ERROR   :             django.server] - 2024-02-05 23:04:02,786 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 91056
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:08:09,474 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:08:10,787 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:08:12,292 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:08:12,329 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[ERROR   :            django.request] - 2024-02-05 23:08:14,005 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 36, in get
+    return render(request, 'base/user_registration.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 528, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+[ERROR   :             django.server] - 2024-02-05 23:08:14,023 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 151814
+[ERROR   :            django.request] - 2024-02-05 23:09:11,816 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 36, in get
+    return render(request, 'base/user_registration.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+[ERROR   :             django.server] - 2024-02-05 23:09:11,836 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 137086
+[ERROR   :            django.request] - 2024-02-05 23:09:45,466 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 36, in get
+    return render(request, 'base/user_registration.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+[ERROR   :             django.server] - 2024-02-05 23:09:45,477 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 137353
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:12:15,048 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:12:16,360 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:12:18,058 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:12:18,098 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[ERROR   :            django.request] - 2024-02-05 23:12:20,361 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 18, in get
+    return render(request, 'base/user_registration.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+[ERROR   :             django.server] - 2024-02-05 23:12:20,376 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 137195
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:15:30,757 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:15:32,288 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:15:32,324 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[ERROR   :            django.request] - 2024-02-05 23:15:34,641 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 18, in get
+    return render(request, 'base/user_registration.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+[ERROR   :             django.server] - 2024-02-05 23:15:34,655 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 137091
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:19:48,437 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:19:53,966 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:19:55,449 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:19:55,483 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[ERROR   :            django.request] - 2024-02-05 23:19:59,131 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 18, in get
+    return render(request, 'base/user_registration.html', )
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+[ERROR   :             django.server] - 2024-02-05 23:19:59,147 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 135319
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:21:54,323 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:21:55,770 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:21:57,413 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:21:57,454 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[WARNING :            django.request] - 2024-02-05 23:21:58,794 : log_response @ 0241: Not Found: /user_registration/
+[WARNING :             django.server] - 2024-02-05 23:21:58,794 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 404 2463
+[INFO    :                base.views] - 2024-02-05 23:22:33,552 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:22:33,556 : log_message @ 0212: "GET / HTTP/1.1" 200 2816
+[INFO    :             django.server] - 2024-02-05 23:22:35,188 : log_message @ 0212: "GET /user HTTP/1.1" 301 0
+[ERROR   :            django.request] - 2024-02-05 23:22:35,300 : log_response @ 0241: Internal Server Error: /user/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 18, in get
+    return render(request, 'base/user.html', )
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+[ERROR   :             django.server] - 2024-02-05 23:22:35,315 : log_message @ 0212: "GET /user/ HTTP/1.1" 500 134981
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:27:10,374 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:27:11,790 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:27:13,309 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:27:13,358 : log_message @ 0212: "GET / HTTP/1.1" 200 2816
+[INFO    :             django.server] - 2024-02-05 23:27:15,106 : log_message @ 0212: "GET /user/ HTTP/1.1" 200 3828
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:30:34,327 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:30:35,904 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:30:35,942 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-05 23:30:37,389 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3841
+[WARNING :             django.server] - 2024-02-05 23:30:41,345 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:32:38,614 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:32:40,002 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-05 23:33:38,581 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3865
+[WARNING :            django.request] - 2024-02-05 23:33:39,695 : log_response @ 0241: Not Found: /base
+[WARNING :             django.server] - 2024-02-05 23:33:39,695 : log_message @ 0212: "GET /base HTTP/1.1" 404 2434
+[WARNING :            django.request] - 2024-02-05 23:34:05,443 : log_response @ 0241: Not Found: /base
+[WARNING :             django.server] - 2024-02-05 23:34:05,444 : log_message @ 0212: "GET /base HTTP/1.1" 404 2434
+[WARNING :            django.request] - 2024-02-05 23:34:10,560 : log_response @ 0241: Not Found: /base
+[WARNING :             django.server] - 2024-02-05 23:34:10,561 : log_message @ 0212: "GET /base HTTP/1.1" 404 2434
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:34:27,398 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:34:28,965 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:34:29,005 : log_message @ 0212: "GET / HTTP/1.1" 200 2834
+[WARNING :            django.request] - 2024-02-05 23:34:30,743 : log_response @ 0241: Not Found: /index
+[WARNING :             django.server] - 2024-02-05 23:34:30,745 : log_message @ 0212: "GET /index HTTP/1.1" 404 2437
+[INFO    :             django.server] - 2024-02-05 23:34:41,016 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3866
+[INFO    :             django.server] - 2024-02-05 23:34:42,034 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3866
+[WARNING :            django.request] - 2024-02-05 23:34:43,764 : log_response @ 0241: Not Found: /index
+[WARNING :             django.server] - 2024-02-05 23:34:43,765 : log_message @ 0212: "GET /index HTTP/1.1" 404 2437
+[WARNING :            django.request] - 2024-02-05 23:35:28,279 : log_response @ 0241: Not Found: /index
+[WARNING :             django.server] - 2024-02-05 23:35:28,281 : log_message @ 0212: "GET /index HTTP/1.1" 404 2437
+[WARNING :            django.request] - 2024-02-05 23:35:31,331 : log_response @ 0241: Not Found: /index
+[WARNING :             django.server] - 2024-02-05 23:35:31,333 : log_message @ 0212: "GET /index HTTP/1.1" 404 2437
+[WARNING :            django.request] - 2024-02-05 23:35:32,530 : log_response @ 0241: Not Found: /index
+[WARNING :             django.server] - 2024-02-05 23:35:32,531 : log_message @ 0212: "GET /index HTTP/1.1" 404 2437
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:35:46,201 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:35:47,567 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:35:47,580 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-05 23:35:50,231 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[INFO    :                base.views] - 2024-02-05 23:35:52,370 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:35:52,372 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-05 23:35:55,291 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[INFO    :                base.views] - 2024-02-05 23:35:56,705 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:35:56,706 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-05 23:35:59,152 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[INFO    :                base.views] - 2024-02-05 23:36:00,607 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:36:00,609 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :   django.utils.autoreload] - 2024-02-05 23:36:45,859 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-05 23:36:47,268 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:36:47,306 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-05 23:36:49,157 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[WARNING :             django.server] - 2024-02-05 23:36:50,786 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-05 23:36:51,905 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:36:51,907 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-05 23:36:54,536 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[INFO    :                base.views] - 2024-02-05 23:36:56,004 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-05 23:36:56,006 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :   django.utils.autoreload] - 2024-02-06 08:25:02,941 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 08:25:04,596 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 08:25:04,653 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 08:25:04,813 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 08:25:04,814 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 08:25:06,998 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[WARNING :             django.server] - 2024-02-06 08:25:09,719 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 08:25:11,040 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 08:25:11,042 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 08:25:12,143 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[INFO    :                base.views] - 2024-02-06 08:25:13,519 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 08:25:13,521 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :   django.utils.autoreload] - 2024-02-06 12:18:42,241 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 12:18:44,005 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 12:18:44,019 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 12:18:44,181 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 12:18:44,182 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 12:18:47,181 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[INFO    :   django.utils.autoreload] - 2024-02-06 12:28:18,261 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 12:28:19,738 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-06 12:29:54,601 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 12:29:55,940 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 12:29:57,808 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 12:29:57,822 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 12:29:59,912 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3861
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:10:29,138 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:10:30,660 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:10:32,190 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:10:32,233 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:10:34,178 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3854
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:11:39,969 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:11:41,430 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:11:43,046 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:11:43,086 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:11:44,681 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3854
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:13:26,014 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 13:13:29,091 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 3908
+[INFO    :                base.views] - 2024-02-06 13:19:09,406 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:19:09,409 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:19:11,861 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4039
+[INFO    :             django.server] - 2024-02-06 13:19:22,994 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4124
+[INFO    :             django.server] - 2024-02-06 13:20:02,721 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4153
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:20:50,613 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:20:51,959 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:20:54,307 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:20:54,322 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:20:58,415 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4039
+[INFO    :             django.server] - 2024-02-06 13:21:36,289 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4124
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:22:42,974 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:22:44,489 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:22:46,775 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:22:46,790 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:22:50,812 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4039
+[INFO    :             django.server] - 2024-02-06 13:23:01,237 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4135
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:23:41,294 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:23:42,636 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 13:23:58,873 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4238
+[INFO    :             django.server] - 2024-02-06 13:24:11,063 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4259
+[INFO    :             django.server] - 2024-02-06 13:24:15,628 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4259
+[INFO    :             django.server] - 2024-02-06 13:24:32,339 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4259
+[WARNING :             django.server] - 2024-02-06 13:24:39,131 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 13:24:39,875 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:24:39,877 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:24:41,122 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4039
+[INFO    :             django.server] - 2024-02-06 13:24:49,376 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4238
+[INFO    :             django.server] - 2024-02-06 13:24:55,797 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4238
+[INFO    :                base.views] - 2024-02-06 13:25:17,532 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:25:17,534 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:25:18,911 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4039
+[INFO    :             django.server] - 2024-02-06 13:25:29,578 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4238
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:26:17,574 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:26:18,975 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:26:24,480 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:26:25,865 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:26:27,143 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:26:27,180 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:26:28,751 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4053
+[INFO    :             django.server] - 2024-02-06 13:26:52,296 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4252
+[WARNING :             django.server] - 2024-02-06 13:27:04,761 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 13:27:05,697 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:27:05,699 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:27:07,480 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4053
+[INFO    :             django.server] - 2024-02-06 13:27:22,674 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4252
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:28:51,435 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:28:52,854 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:28:55,759 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:28:55,773 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:28:57,706 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4053
+[INFO    :             django.server] - 2024-02-06 13:29:12,358 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4252
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:29:51,716 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:29:53,109 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :             django.server] - 2024-02-06 13:29:56,026 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 13:29:57,594 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:29:57,604 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:29:58,883 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4053
+[INFO    :             django.server] - 2024-02-06 13:30:06,542 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4252
+[INFO    :             django.server] - 2024-02-06 13:30:54,514 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4252
+[INFO    :             django.server] - 2024-02-06 13:31:20,196 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4267
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:32:44,331 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:32:45,695 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:32:48,442 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:32:48,456 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:32:50,100 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4053
+[INFO    :             django.server] - 2024-02-06 13:33:03,142 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4273
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:35:16,743 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:35:18,251 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:35:19,554 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:35:19,595 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:35:21,133 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4044
+[INFO    :             django.server] - 2024-02-06 13:35:32,595 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4270
+[INFO    :             django.server] - 2024-02-06 13:35:50,187 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4270
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:38:03,345 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:38:04,650 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:38:06,071 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:38:06,109 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:38:07,707 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 13:38:21,979 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4284
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:54:42,502 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:54:43,881 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:55:12,388 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:55:13,848 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:55:15,313 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:55:15,355 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:55:17,038 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4007
+[INFO    :             django.server] - 2024-02-06 13:55:26,272 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4103
+[INFO    :             django.server] - 2024-02-06 13:55:37,357 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4219
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:57:16,798 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 13:57:18,361 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 13:57:27,782 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:57:27,799 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:57:30,052 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 13:57:44,444 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4270
+[INFO    :             django.server] - 2024-02-06 13:57:51,795 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4156
+[INFO    :                base.views] - 2024-02-06 13:58:07,072 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:58:07,073 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:58:08,474 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :                base.views] - 2024-02-06 13:59:49,164 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 13:59:49,166 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 13:59:52,200 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :   django.utils.autoreload] - 2024-02-06 15:29:35,828 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 15:29:38,189 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:29:38,206 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 15:29:40,474 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 15:30:02,760 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4270
+[INFO    :                base.views] - 2024-02-06 15:30:46,972 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:30:46,975 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :                base.views] - 2024-02-06 15:30:47,937 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:30:47,939 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 15:30:49,375 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 15:30:54,884 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :                base.views] - 2024-02-06 15:49:45,335 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:49:45,339 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :                base.views] - 2024-02-06 15:49:46,293 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:49:46,295 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 15:49:48,839 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 15:49:51,188 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :   django.utils.autoreload] - 2024-02-06 15:50:02,277 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 15:50:11,640 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:50:11,658 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 15:50:13,348 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :                base.views] - 2024-02-06 15:50:37,470 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:50:37,482 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 15:50:38,994 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 15:51:18,919 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4116
+[INFO    :             django.server] - 2024-02-06 15:51:19,737 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4116
+[INFO    :             django.server] - 2024-02-06 15:51:21,342 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4116
+[WARNING :             django.server] - 2024-02-06 15:51:22,478 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 15:51:23,087 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:51:23,089 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 15:51:24,092 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4116
+[INFO    :                base.views] - 2024-02-06 15:51:53,844 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 15:51:53,847 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[ERROR   :            django.request] - 2024-02-06 15:51:56,300 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 18, in get
+    return render(request, 'base/user_registration.html', context={'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-06 15:51:56,326 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 164835
+[ERROR   :            django.request] - 2024-02-06 16:08:49,547 : log_response @ 0241: Internal Server Error: /user_registration/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 18, in get
+    return render(request, 'base/user_registration.html', context={'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-06 16:08:49,560 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 500 164835
+[INFO    :             django.server] - 2024-02-06 16:09:10,511 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4194
+[WARNING :             django.server] - 2024-02-06 16:09:10,570 : log_message @ 0212: "GET /static/css/styles.css HTTP/1.1" 404 1801
+[INFO    :             django.server] - 2024-02-06 16:10:00,481 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4194
+[WARNING :             django.server] - 2024-02-06 16:10:00,531 : log_message @ 0212: "GET /static/css/styles.css HTTP/1.1" 404 1801
+[INFO    :             django.server] - 2024-02-06 16:10:01,976 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4194
+[WARNING :             django.server] - 2024-02-06 16:10:02,031 : log_message @ 0212: "GET /static/css/styles.css HTTP/1.1" 404 1801
+[INFO    :             django.server] - 2024-02-06 16:10:06,098 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4194
+[WARNING :             django.server] - 2024-02-06 16:10:06,162 : log_message @ 0212: "GET /static/css/styles.css HTTP/1.1" 404 1801
+[INFO    :             django.server] - 2024-02-06 16:10:09,628 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4194
+[WARNING :             django.server] - 2024-02-06 16:10:09,675 : log_message @ 0212: "GET /static/css/styles.css HTTP/1.1" 404 1801
+[INFO    :                base.views] - 2024-02-06 16:12:19,172 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:12:19,176 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :                base.views] - 2024-02-06 16:12:21,429 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:12:21,431 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :                base.views] - 2024-02-06 16:12:23,456 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:12:23,458 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 16:12:25,322 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[WARNING :             django.server] - 2024-02-06 16:12:30,822 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :             django.server] - 2024-02-06 16:12:53,359 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:13:53,950 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:13:54,839 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:13:55,615 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :                base.views] - 2024-02-06 16:14:33,275 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:14:33,277 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[WARNING :             django.server] - 2024-02-06 16:14:35,034 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 16:16:33,204 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:16:33,206 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[WARNING :             django.server] - 2024-02-06 16:16:34,597 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 16:16:36,702 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:16:36,704 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[WARNING :             django.server] - 2024-02-06 16:16:37,769 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 16:16:42,495 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:16:42,496 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[WARNING :             django.server] - 2024-02-06 16:16:43,810 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 404 1837
+[INFO    :                base.views] - 2024-02-06 16:18:23,328 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:18:23,330 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 16:18:25,063 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[INFO    :             django.server] - 2024-02-06 16:18:34,040 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :                base.views] - 2024-02-06 16:19:23,377 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:19:23,379 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 16:19:24,979 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :                base.views] - 2024-02-06 16:20:00,198 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:20:00,201 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 16:20:01,762 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:20:54,901 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:20:55,769 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:20:59,107 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:21:00,513 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:21:03,715 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:21:03,758 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:21:03,772 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:21:03,772 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:21:03,794 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[INFO    :             django.server] - 2024-02-06 16:21:03,796 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[WARNING :            django.request] - 2024-02-06 16:21:04,076 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:21:04,077 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:21:58,503 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:21:58,552 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-06 16:22:00,327 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 16:22:00,329 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 16:22:02,387 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:05,733 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:05,776 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:22:05,777 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:22:05,778 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:22:05,779 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:22:05,803 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:22:06,080 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:22:06,081 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:22:06,499 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:06,544 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:22:06,544 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:22:06,544 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:22:06,544 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:22:06,569 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:22:06,833 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:22:06,835 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:22:07,128 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:07,173 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:22:07,174 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:22:07,174 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:22:07,175 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:22:07,198 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[INFO    :             django.server] - 2024-02-06 16:22:07,864 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:07,910 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:22:07,910 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:22:07,910 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:22:07,911 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:22:07,937 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:22:08,208 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:22:08,209 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:22:16,810 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:19,331 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:19,378 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:22:19,379 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:22:19,379 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:22:19,380 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:22:19,410 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:22:19,689 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:22:19,690 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:22:20,002 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:20,047 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:22:20,048 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:22:20,048 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:22:20,049 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:22:20,074 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:22:20,355 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:22:20,357 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:22:20,750 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:22:20,794 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:22:20,794 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:22:20,794 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5505
+[INFO    :             django.server] - 2024-02-06 16:22:20,795 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:22:20,821 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:22:21,097 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:22:21,098 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:23:05,532 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:23:05,573 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5502
+[INFO    :             django.server] - 2024-02-06 16:23:05,605 : log_message @ 0212: "GET /static/fonts/OpenSans-Bold.ttf HTTP/1.1" 200 130860
+[INFO    :             django.server] - 2024-02-06 16:23:33,869 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:23:33,915 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5676
+[INFO    :             django.server] - 2024-02-06 16:24:02,408 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:24:02,447 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 5893
+[INFO    :             django.server] - 2024-02-06 16:28:12,488 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:28:12,529 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6035
+[INFO    :             django.server] - 2024-02-06 16:29:17,474 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:29:17,513 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6232
+[INFO    :             django.server] - 2024-02-06 16:29:18,563 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:29:18,591 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 16:29:21,336 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:29:21,379 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6232
+[INFO    :             django.server] - 2024-02-06 16:29:21,379 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:29:21,379 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:29:21,379 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:29:21,424 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:29:21,688 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:29:21,688 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:29:59,431 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:29:59,477 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6232
+[INFO    :             django.server] - 2024-02-06 16:30:00,517 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:30:00,557 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 16:30:02,799 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:30:02,844 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6232
+[INFO    :             django.server] - 2024-02-06 16:30:02,845 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:30:02,845 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:30:02,846 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:30:02,872 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:30:03,165 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:30:03,170 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:30:42,092 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:30:42,134 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6576
+[INFO    :             django.server] - 2024-02-06 16:31:32,446 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:31:32,489 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6577
+[INFO    :             django.server] - 2024-02-06 16:31:33,892 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:31:33,943 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 16:31:40,083 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 16:33:20,725 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:33:20,767 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6601
+[INFO    :             django.server] - 2024-02-06 16:37:10,283 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:37:10,325 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6605
+[INFO    :             django.server] - 2024-02-06 16:38:39,175 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:38:39,219 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6608
+[INFO    :             django.server] - 2024-02-06 16:40:16,509 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:40:16,549 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6821
+[INFO    :             django.server] - 2024-02-06 16:41:06,747 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4058
+[INFO    :             django.server] - 2024-02-06 16:41:06,786 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6654
+[INFO    :   django.utils.autoreload] - 2024-02-06 16:42:26,035 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 16:42:27,465 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 16:42:27,930 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:42:27,990 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 16:42:39,069 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:42:39,336 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6654
+[INFO    :             django.server] - 2024-02-06 16:42:39,338 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:42:39,342 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:42:39,350 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:42:39,359 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:42:39,684 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:42:39,686 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:43:24,769 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:43:24,811 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6677
+[INFO    :             django.server] - 2024-02-06 16:43:27,224 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:43:27,272 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:43:27,272 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6677
+[INFO    :             django.server] - 2024-02-06 16:43:27,272 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:43:27,273 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:43:27,298 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:43:27,566 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:43:27,568 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:44:12,564 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:44:12,608 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:44:12,609 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:44:12,609 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6733
+[INFO    :             django.server] - 2024-02-06 16:44:12,610 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:44:12,636 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:44:12,905 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:44:12,908 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:44:18,148 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 16:45:58,565 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:45:58,616 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6715
+[INFO    :             django.server] - 2024-02-06 16:46:39,126 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:46:39,179 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6661
+[INFO    :             django.server] - 2024-02-06 16:47:12,444 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:47:12,487 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6634
+[INFO    :             django.server] - 2024-02-06 16:47:55,283 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:47:55,325 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6715
+[INFO    :             django.server] - 2024-02-06 16:49:03,429 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:49:03,477 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6731
+[INFO    :             django.server] - 2024-02-06 16:49:28,968 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:49:29,012 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6738
+[INFO    :             django.server] - 2024-02-06 16:52:38,026 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:52:38,079 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6702
+[INFO    :             django.server] - 2024-02-06 16:52:38,082 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 16:52:38,084 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 16:52:38,085 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 16:52:38,109 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 16:52:38,552 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 16:52:38,553 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 16:53:01,998 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:53:02,041 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6702
+[INFO    :             django.server] - 2024-02-06 16:53:54,947 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 16:53:54,992 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6686
+[INFO    :             django.server] - 2024-02-06 17:03:04,880 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-02-06 17:03:04,938 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6690
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:04:14,693 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:04:16,057 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 17:04:16,408 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:04:16,453 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:05:23,729 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:05:25,043 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 17:05:25,441 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:05:25,481 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:05:31,014 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:05:31,278 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6690
+[INFO    :             django.server] - 2024-02-06 17:05:31,283 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 17:05:31,287 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 17:05:31,289 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 17:05:31,295 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 17:05:31,598 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 17:05:31,599 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:05:49,115 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 17:05:50,928 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 17:05:50,942 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 17:05:50,983 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:05:52,770 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:06:31,413 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:06:32,745 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 17:06:34,722 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 17:06:34,741 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 17:06:34,786 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:06:36,660 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:06:40,760 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:06:41,020 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6690
+[INFO    :             django.server] - 2024-02-06 17:06:41,027 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 17:06:41,035 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 17:06:41,038 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 17:06:41,039 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 17:06:41,355 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 17:06:41,356 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:07:41,605 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:07:43,161 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 17:07:44,578 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 17:07:44,592 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 17:07:44,640 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:07:46,320 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:08:18,364 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4321
+[INFO    :             django.server] - 2024-02-06 17:08:18,404 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:08:45,237 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4207
+[INFO    :                base.views] - 2024-02-06 17:31:11,065 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 17:31:11,067 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 17:31:11,114 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:31:12,492 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:31:37,992 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 17:31:39,402 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 17:31:39,905 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:32:25,794 : log_message @ 0212: "POST /user_registration/ HTTP/1.1" 200 4292
+[INFO    :                base.views] - 2024-02-06 17:33:42,050 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 17:33:42,052 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 17:33:43,370 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:34:19,247 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:34:19,503 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6728
+[INFO    :             django.server] - 2024-02-06 17:34:19,519 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 17:34:19,522 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[INFO    :             django.server] - 2024-02-06 17:34:19,524 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 17:34:19,525 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[WARNING :            django.request] - 2024-02-06 17:34:19,923 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 17:34:19,924 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 17:35:12,141 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:35:12,185 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6727
+[INFO    :             django.server] - 2024-02-06 17:35:41,419 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:35:41,476 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6728
+[INFO    :             django.server] - 2024-02-06 17:36:01,968 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:36:02,015 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6729
+[INFO    :             django.server] - 2024-02-06 17:36:14,840 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:36:14,879 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6728
+[INFO    :             django.server] - 2024-02-06 17:37:14,549 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:37:14,589 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6705
+[INFO    :             django.server] - 2024-02-06 17:37:15,627 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:37:15,667 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:37:17,363 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:37:17,406 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 17:37:17,406 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6705
+[INFO    :             django.server] - 2024-02-06 17:37:17,407 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 17:37:17,407 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 17:37:17,447 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 17:37:17,727 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 17:37:17,728 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 17:37:35,121 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 17:38:21,846 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:38:21,889 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6684
+[INFO    :             django.server] - 2024-02-06 17:39:52,147 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:39:52,193 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6702
+[INFO    :             django.server] - 2024-02-06 17:41:41,530 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:41:41,574 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6726
+[INFO    :             django.server] - 2024-02-06 17:41:48,672 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 17:41:48,716 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-06 17:41:48,717 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-06 17:41:48,718 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-06 17:41:48,719 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6726
+[INFO    :             django.server] - 2024-02-06 17:41:48,757 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-06 17:41:49,043 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-06 17:41:49,044 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2455
+[INFO    :             django.server] - 2024-02-06 18:45:45,825 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:45:45,991 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6727
+[INFO    :             django.server] - 2024-02-06 18:47:17,558 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:47:17,599 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6763
+[INFO    :             django.server] - 2024-02-06 18:47:17,652 : log_message @ 0212: "GET /static/fonts/OpenSans-Light.ttf HTTP/1.1" 200 130804
+[INFO    :             django.server] - 2024-02-06 18:47:49,662 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:47:49,701 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6764
+[INFO    :             django.server] - 2024-02-06 18:47:49,733 : log_message @ 0212: "GET /static/fonts/OpenSans-Medium.ttf HTTP/1.1" 200 130976
+[INFO    :             django.server] - 2024-02-06 18:49:06,482 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:49:06,521 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6788
+[INFO    :             django.server] - 2024-02-06 18:49:08,338 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:49:08,376 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:49:09,233 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:49:09,271 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:49:40,167 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:49:40,218 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6790
+[INFO    :             django.server] - 2024-02-06 18:49:41,249 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:49:41,286 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:49:41,836 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:49:41,910 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:50:17,683 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:50:17,731 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6808
+[INFO    :             django.server] - 2024-02-06 18:50:43,489 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:50:43,520 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6809
+[INFO    :             django.server] - 2024-02-06 18:50:54,759 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:50:54,801 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6809
+[INFO    :             django.server] - 2024-02-06 18:51:26,284 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:51:26,330 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6792
+[INFO    :             django.server] - 2024-02-06 18:51:27,995 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:51:28,043 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:51:44,031 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:51:44,069 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6792
+[INFO    :             django.server] - 2024-02-06 18:51:45,474 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:51:45,512 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:52:11,960 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:52:11,999 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6793
+[INFO    :             django.server] - 2024-02-06 18:52:39,567 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:54:27,100 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:54:27,147 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6847
+[INFO    :             django.server] - 2024-02-06 18:55:57,296 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:55:57,339 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6829
+[INFO    :             django.server] - 2024-02-06 18:56:12,108 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:56:12,158 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6848
+[INFO    :             django.server] - 2024-02-06 18:56:42,494 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:56:42,535 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6848
+[INFO    :             django.server] - 2024-02-06 18:57:17,341 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:57:17,382 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6884
+[INFO    :             django.server] - 2024-02-06 18:57:18,845 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:57:18,886 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:57:40,825 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:57:40,867 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6890
+[INFO    :             django.server] - 2024-02-06 18:57:42,860 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:57:42,901 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:57:43,991 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:57:44,041 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 18:58:09,801 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 18:58:09,841 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6886
+[INFO    :             django.server] - 2024-02-06 19:01:06,012 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:01:06,064 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7296
+[INFO    :             django.server] - 2024-02-06 19:01:58,360 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:01:58,403 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7003
+[INFO    :             django.server] - 2024-02-06 19:03:22,103 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:03:22,145 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7422
+[INFO    :             django.server] - 2024-02-06 19:04:20,096 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:04:20,139 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6884
+[INFO    :   django.utils.autoreload] - 2024-02-06 19:06:29,535 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 19:06:30,972 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 19:07:44,542 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:07:44,690 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7433
+[INFO    :             django.server] - 2024-02-06 19:08:28,833 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:08:28,874 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6884
+[INFO    :             django.server] - 2024-02-06 19:08:59,849 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:08:59,892 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6908
+[INFO    :             django.server] - 2024-02-06 19:09:33,417 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:09:33,459 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6908
+[INFO    :             django.server] - 2024-02-06 19:10:37,002 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:10:37,045 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6910
+[INFO    :             django.server] - 2024-02-06 19:10:51,320 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 19:14:19,681 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:14:19,726 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6911
+[INFO    :             django.server] - 2024-02-06 19:17:49,978 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:17:50,026 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6909
+[INFO    :             django.server] - 2024-02-06 19:18:40,028 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:18:40,069 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6930
+[INFO    :             django.server] - 2024-02-06 19:21:10,301 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:21:10,364 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6928
+[INFO    :             django.server] - 2024-02-06 19:21:47,112 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:21:47,159 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6911
+[INFO    :             django.server] - 2024-02-06 19:23:56,310 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:23:56,352 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6926
+[INFO    :             django.server] - 2024-02-06 19:24:19,626 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4080
+[INFO    :             django.server] - 2024-02-06 19:24:19,671 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6932
+[INFO    :             django.server] - 2024-02-06 19:57:24,839 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4105
+[INFO    :             django.server] - 2024-02-06 19:57:24,895 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6926
+[INFO    :   django.utils.autoreload] - 2024-02-06 20:00:24,764 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-06 20:00:26,204 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-06 20:00:26,747 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4130
+[INFO    :             django.server] - 2024-02-06 20:00:26,787 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:01:12,735 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4131
+[INFO    :             django.server] - 2024-02-06 20:01:12,784 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:03:52,821 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :             django.server] - 2024-02-06 20:03:52,860 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:03:55,223 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :   django.utils.autoreload] - 2024-02-06 20:04:23,778 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-06 20:04:25,338 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 20:04:25,354 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 20:04:27,783 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :             django.server] - 2024-02-06 20:05:13,841 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :             django.server] - 2024-02-06 20:05:13,981 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6926
+[INFO    :             django.server] - 2024-02-06 20:05:15,492 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :             django.server] - 2024-02-06 20:05:15,534 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:05:32,048 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :             django.server] - 2024-02-06 20:05:32,087 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6901
+[INFO    :             django.server] - 2024-02-06 20:05:33,160 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :             django.server] - 2024-02-06 20:05:33,200 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-06 20:05:35,870 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 20:05:35,872 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 20:05:35,910 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:05:36,909 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4185
+[INFO    :             django.server] - 2024-02-06 20:05:36,948 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:07:29,507 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4188
+[INFO    :             django.server] - 2024-02-06 20:07:29,547 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6656
+[INFO    :             django.server] - 2024-02-06 20:07:43,005 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:08:33,398 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4188
+[INFO    :             django.server] - 2024-02-06 20:08:33,440 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6660
+[INFO    :             django.server] - 2024-02-06 20:10:23,669 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:10:23,711 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:11:51,150 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:11:51,190 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6688
+[INFO    :             django.server] - 2024-02-06 20:12:48,686 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:12:48,729 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6688
+[INFO    :             django.server] - 2024-02-06 20:13:26,923 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:13:26,967 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6683
+[INFO    :             django.server] - 2024-02-06 20:14:09,783 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:14:09,828 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6706
+[INFO    :             django.server] - 2024-02-06 20:17:13,503 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:17:13,559 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6779
+[INFO    :             django.server] - 2024-02-06 20:17:28,684 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:17:28,727 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6773
+[INFO    :                base.views] - 2024-02-06 20:17:42,593 : index @ 0012: Index page accessed
+[INFO    :             django.server] - 2024-02-06 20:17:42,596 : log_message @ 0212: "GET / HTTP/1.1" 200 2829
+[INFO    :             django.server] - 2024-02-06 20:17:42,631 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-06 20:17:43,644 : log_message @ 0212: "GET /user_registration/ HTTP/1.1" 200 4163
+[INFO    :             django.server] - 2024-02-06 20:17:43,685 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0

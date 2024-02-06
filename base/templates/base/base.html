@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/style.css' %}" >
 
-    <title>Моя страница</title>
+    <title>{% block title %}{% endblock %}</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         <nav class="nav-header">
             <div class="header-left">
                 <div class="logo-search">
-                    <a href="#" class="logo-hide"><img src="{% static 'img/logo/mini-dog-logo.png' %}" alt="Logo"></a>
+                    <a href="/" class="logo-hide"><img src="{% static 'img/logo/mini-dog-logo.png' %}" alt="Logo"></a>
                     <div class="search-box">
                         {% load static %}
                         <input type="text" placeholder="Поиск...">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div>
-                    <a href="#">
+                    <a href="/user_registration">
                         <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">
                     </a>
                 </div>
@@ -40,7 +40,7 @@
                 </button>
                 <nav class="menu">
 
-                    <li><a href="#">Главная</a></li>
+                    <li><a href="/">Главная</a></li>
                     <li><a href="#">О проекте</a></li>
                     <li><a href="#">Форум</a></li>
                     <li><a href="#">Сообщество</a></li>
@@ -58,6 +58,8 @@
         <div class="one-third">
             <!-- Вторая часть разделена на три строки -->
             <div class="row">
+                {% block one-third %}
+                {% endblock %}
                 <!-- <h3>Вторая часть - Строка 1</h3> -->
             </div>
             <div class="row">

@@ -1,8 +1,11 @@
 {% extends 'base/base.html' %}
-<!--{% load static %}-->
+
+
 
 {% block one-third %}
-<!--    <p>{{ message }}</p>-->
-    {{ form }}
-    <input type="submit" value="Отправить">
+    <h4>{{ message }}</h4>
+        <form method="post" enctype="multipart/form-data">{% csrf_token %}
+            {{ form }}
+        <input class="form-registration" type="submit" value="Отправить">
+        </form>
 {% endblock %}

@@ -23,6 +23,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #2e2017;
+
 }
 
 /* Стили для header и меню */
@@ -30,7 +31,76 @@ body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    font-family: "OpenSans-Regular";
 }
+
+/* Стили для формы ввода параметров*/
+form {
+    overflow: hidden;
+    font-family: "OpenSans-Regular";
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Стилизация для названия поля */
+label {
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+/* Выравнивание текста у чекбокса */
+label[for="id_pets"] {
+    display: inline-block;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/* Стилизация загрузки изображений */
+input[type="file"] {
+    margin: 10px 0;
+    display: inline-block;
+    font-size: medium;
+}
+
+label[for="id_image"] {
+    margin-top: 10px;
+    font-family: "OpenSans-Regular";
+}
+
+
+input[type="submit"] {
+    font-family: 'OpenSans-Regular';
+    background-color: #825b47;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.form-registration {
+    float: right;
+}
+
 
 .header {
     max-width: 1440px;
@@ -129,7 +199,7 @@ body {
 
 .menu {
 
-    font-family: "OpenSans-Regular";
+    font-family: "OpenSans-Bold";
     font-size: 18px;
     display: none;
     padding: 10px;
@@ -212,7 +282,7 @@ body {
 .one-third {
     flex: 1;
     background-color: #c8a890;
-    padding: 20px;
+    padding: 5px 20px;
     margin-left: 5px;
 }
 
