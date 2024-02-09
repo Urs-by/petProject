@@ -199,8 +199,7 @@ input[type="submit"] {
 }
 
 .menu {
-
-    font-family: "OpenSans-Bold";
+    /* font-family: 'OpenSans-Regular'; */
     font-size: 18px;
     display: none;
     padding: 10px;

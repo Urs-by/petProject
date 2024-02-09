@@ -1,8 +1,9 @@
 {% extends 'base/base.html' %}
 
-{% block one-third %}
+{% block one-third-one %}
     <h4>{{ message }}</h4>
-        <form method="post" enctype="multipart/form-data">{% csrf_token %}
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
             {{ form }}
         <input class="form-registration" type="submit" value="Отправить">
         </form>

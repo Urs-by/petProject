@@ -1,0 +1,11 @@
+{% extends 'base/base.html' %}
+
+{% block one-third-one %}
+    <h4>{{ message }}</h4>
+    <br>
+       <form method="post" enctype="multipart/form-data">
+       {% csrf_token %}
+       {{ form }}
+       <input class="form-registration" type="submit" value="Загрузить">
+   </form>
+{% endblock %}

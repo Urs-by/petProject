@@ -28,9 +28,20 @@
                     </div>
                 </div>
                 <div>
-                    <a href="/user_registration">
-                        <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">
-                    </a>
+                    {% if user.is_authenticated %}
+                       <p>Hi {{ user.username }}!</p>
+                       <form action="{% url 'logout' %}" method="post">
+                           {% csrf_token %}
+                           <button type="submit">Log out</button>
+                       </form>
+                    {% else %}
+                       <p>You are not logged in.</p>
+                       <a href="{% url 'login' %}">Log In</a>
+                    {% endif %}
+<!--                    <a href="/accounts/login/">-->
+<!--                        <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">-->
+<!--                    </a>-->
+
                 </div>
             </div>
             <div class="header-right">
@@ -52,20 +63,26 @@
 
     <div class="main-content">
         <div class="two-thirds">
+
             <!-- Первая часть занимает 2/3 экрана -->
             <!-- <h2>Первая часть</h2> -->
         </div>
         <div class="one-third">
             <!-- Вторая часть разделена на три строки -->
             <div class="row">
-                {% block one-third %}
+                {% block one-third-one %}
+                <h4>{{ message }}</h4>
                 {% endblock %}
                 <!-- <h3>Вторая часть - Строка 1</h3> -->
             </div>
             <div class="row">
+                {% block one-third-two %}
+                {% endblock %}
                 <!-- <h3>Вторая часть - Строка 2</h3> -->
             </div>
             <div class="row">
+                {% block one-third-three %}
+                {% endblock %}
                 <!-- <h3>Вторая часть - Строка 3</h3> -->
             </div>
         </div>

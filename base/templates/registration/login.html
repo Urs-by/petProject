@@ -1,0 +1,16 @@
+{% extends 'base/base.html' %}
+
+{% block one-third-one %}
+    <h4>Вход в систему</h4>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="form-registration" type="submit" value="Войти">
+    </form>
+{% endblock %}
+
+{% block one-third-two %}
+    <h4>{{ message }}</h4>
+    <p> Если Вы еще не зарегистрированы на нашем сайте пройдите по ссылке ниже:  </p>
+    <h4> <a href="/reg_user">Зарегистрироваться</a> </h4>
+{% endblock %}
