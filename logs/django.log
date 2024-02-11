@@ -6902,3 +6902,1400 @@ ValueError: The view base.views.view didn't return an HttpResponse object. It re
 [INFO    :             django.server] - 2024-02-09 17:22:17,083 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 [INFO    :             django.server] - 2024-02-09 17:22:20,967 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 302 0
 [INFO    :             django.server] - 2024-02-09 17:22:20,979 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4018
+[INFO    :   django.utils.autoreload] - 2024-02-11 13:25:09,453 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 13:25:11,077 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:25:11,113 : log_message @ 0212: "GET / HTTP/1.1" 200 3575
+[INFO    :             django.server] - 2024-02-11 13:25:11,271 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-11 13:25:11,271 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-11 13:25:11,273 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-11 13:25:26,258 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4018
+[INFO    :             django.server] - 2024-02-11 13:25:40,391 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 13:25:40,400 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:25:40,413 : log_message @ 0212: "GET / HTTP/1.1" 200 3821
+[INFO    :             django.server] - 2024-02-11 13:28:12,514 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 13:28:12,536 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3957
+[INFO    :             django.server] - 2024-02-11 13:28:12,584 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-11 13:29:33,637 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3964
+[INFO    :             django.server] - 2024-02-11 13:29:36,272 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3964
+[INFO    :                base.views] - 2024-02-11 13:29:38,176 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:29:38,179 : log_message @ 0212: "GET / HTTP/1.1" 200 3521
+[INFO    :             django.server] - 2024-02-11 13:29:39,705 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3964
+[INFO    :             django.server] - 2024-02-11 13:29:53,507 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 13:29:53,514 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:29:53,523 : log_message @ 0212: "GET / HTTP/1.1" 200 3615
+[INFO    :                base.views] - 2024-02-11 13:30:33,180 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:30:33,190 : log_message @ 0212: "GET / HTTP/1.1" 200 3611
+[INFO    :                base.views] - 2024-02-11 13:32:07,483 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:32:07,493 : log_message @ 0212: "GET / HTTP/1.1" 200 3619
+[INFO    :             django.server] - 2024-02-11 13:32:14,866 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 13:32:14,886 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3896
+[INFO    :                base.views] - 2024-02-11 13:32:18,339 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:32:18,341 : log_message @ 0212: "GET / HTTP/1.1" 200 3453
+[WARNING :            django.request] - 2024-02-11 13:32:21,023 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:32:21,025 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[WARNING :            django.request] - 2024-02-11 13:32:30,712 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:32:30,713 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[INFO    :                base.views] - 2024-02-11 13:33:07,916 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:33:07,922 : log_message @ 0212: "GET / HTTP/1.1" 200 3453
+[WARNING :            django.request] - 2024-02-11 13:33:10,635 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:33:10,637 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[WARNING :            django.request] - 2024-02-11 13:33:38,368 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:33:38,369 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[INFO    :                base.views] - 2024-02-11 13:34:03,715 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:34:03,720 : log_message @ 0212: "GET / HTTP/1.1" 200 3521
+[INFO    :             django.server] - 2024-02-11 13:34:06,083 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3964
+[WARNING :            django.request] - 2024-02-11 13:34:11,630 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:34:11,631 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[INFO    :             django.server] - 2024-02-11 13:34:14,859 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3964
+[INFO    :             django.server] - 2024-02-11 13:35:26,207 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3896
+[INFO    :             django.server] - 2024-02-11 13:35:37,164 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 13:35:37,172 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:35:37,181 : log_message @ 0212: "GET / HTTP/1.1" 200 3573
+[WARNING :            django.request] - 2024-02-11 13:35:45,166 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:35:45,167 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[WARNING :            django.request] - 2024-02-11 13:36:53,413 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:36:53,414 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[WARNING :            django.request] - 2024-02-11 13:36:56,519 : log_response @ 0241: Not Found: /login/
+[WARNING :             django.server] - 2024-02-11 13:36:56,520 : log_message @ 0212: "GET /login/ HTTP/1.1" 404 2880
+[INFO    :             django.server] - 2024-02-11 13:37:02,482 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 13:37:02,507 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3896
+[INFO    :                base.views] - 2024-02-11 13:37:09,991 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:37:09,998 : log_message @ 0212: "GET / HTTP/1.1" 200 3462
+[INFO    :             django.server] - 2024-02-11 13:37:11,598 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3896
+[INFO    :                base.views] - 2024-02-11 13:37:27,620 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:37:27,623 : log_message @ 0212: "GET / HTTP/1.1" 200 3462
+[INFO    :             django.server] - 2024-02-11 13:37:32,824 : log_message @ 0212: "GET /reg_user/ HTTP/1.1" 200 4416
+[INFO    :             django.server] - 2024-02-11 13:37:57,237 : log_message @ 0212: "POST /reg_user/ HTTP/1.1" 200 4618
+[INFO    :             django.server] - 2024-02-11 13:38:01,010 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3896
+[INFO    :             django.server] - 2024-02-11 13:38:12,037 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 13:38:12,043 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:38:12,051 : log_message @ 0212: "GET / HTTP/1.1" 200 3582
+[INFO    :             django.server] - 2024-02-11 13:38:14,666 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4016
+[INFO    :             django.server] - 2024-02-11 13:38:15,725 : log_message @ 0212: "GET /reg_user/ HTTP/1.1" 200 4536
+[INFO    :             django.server] - 2024-02-11 13:39:41,370 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 13:39:41,393 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3938
+[INFO    :             django.server] - 2024-02-11 13:40:34,339 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-11 13:41:48,475 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 13:41:50,195 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 13:42:06,145 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 13:42:13,895 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 200 4157
+[INFO    :             django.server] - 2024-02-11 13:42:28,316 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 13:42:28,323 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:42:28,334 : log_message @ 0212: "GET / HTTP/1.1" 200 3633
+[INFO    :                base.views] - 2024-02-11 13:43:07,188 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:43:07,198 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 13:53:50,666 : log_message @ 0212: "GET /reg_user/ HTTP/1.1" 200 4572
+[INFO    :             django.server] - 2024-02-11 13:53:59,023 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 3877
+[INFO    :   django.utils.autoreload] - 2024-02-11 13:56:37,315 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 13:56:38,618 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 13:56:40,290 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:56:40,319 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 13:56:44,895 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 13:56:44,920 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[ERROR   :            django.request] - 2024-02-11 13:56:55,841 : log_response @ 0241: Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 141, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 108, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 41, in get_success_url
+    return self.get_redirect_url() or self.get_default_redirect_url()
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 95, in get_default_redirect_url
+    return resolve_url(settings.LOGIN_REDIRECT_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'authorized' not found. 'authorized' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 13:56:55,857 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 500 143163
+[INFO    :   django.utils.autoreload] - 2024-02-11 13:57:28,599 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 13:57:29,996 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-11 13:57:34,464 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 13:57:42,039 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 13:57:42,046 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:57:42,057 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :   django.utils.autoreload] - 2024-02-11 13:58:32,164 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 13:58:33,495 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 13:58:35,155 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 13:58:35,185 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 13:58:38,299 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 13:58:38,324 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 13:58:48,242 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-02-11 13:58:48,271 : log_response @ 0241: Not Found: /accounts/login/authoriz.html
+[WARNING :             django.server] - 2024-02-11 13:58:48,273 : log_message @ 0212: "GET /accounts/login/authoriz.html HTTP/1.1" 404 4412
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:01:09,758 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:01:11,205 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 14:01:12,790 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:01:12,818 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 14:01:16,789 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:01:16,815 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:01:27,130 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 14:01:27,136 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:01:27,145 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:04:43,682 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:04:45,112 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 14:04:46,474 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:04:46,501 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 14:04:48,440 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:04:48,467 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[ERROR   :            django.request] - 2024-02-11 14:05:01,841 : log_response @ 0241: Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\decorators\debug.py", line 141, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 108, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 41, in get_success_url
+    return self.get_redirect_url() or self.get_default_redirect_url()
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\contrib\auth\views.py", line 95, in get_default_redirect_url
+    return resolve_url(settings.LOGIN_REDIRECT_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'base' not found. 'base' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 14:05:01,860 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 500 143067
+[INFO    :             django.server] - 2024-02-11 14:05:12,247 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:05:41,057 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:05:42,495 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 14:05:43,860 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:05:43,882 : log_message @ 0212: "GET / HTTP/1.1" 200 3463
+[INFO    :             django.server] - 2024-02-11 14:05:47,359 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:05:55,898 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 14:05:55,905 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:05:55,913 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 14:06:03,025 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:06:03,037 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:06:27,835 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:06:29,125 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 14:06:30,563 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:06:30,585 : log_message @ 0212: "GET / HTTP/1.1" 200 3463
+[INFO    :             django.server] - 2024-02-11 14:06:32,733 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:06:41,688 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 14:06:41,695 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:06:41,703 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:07:03,877 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:07:03,884 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:07:07,293 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:07:07,299 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:07:09,362 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:07:09,375 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 14:07:20,229 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 3877
+[INFO    :                base.views] - 2024-02-11 14:07:29,860 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:07:29,868 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:08:56,260 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:08:56,271 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:09:08,764 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:09:08,771 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:09:11,725 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:09:11,732 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:09:12,441 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:09:12,448 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :                base.views] - 2024-02-11 14:09:12,858 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:09:12,866 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3618
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:09:31,739 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:09:33,041 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:19:58,545 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:19:59,868 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:21:19,751 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:21:21,134 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 14:22:34,403 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:22:34,434 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 14:22:37,277 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:22:37,309 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:22:45,752 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[ERROR   :            django.request] - 2024-02-11 14:22:45,882 : log_response @ 0241: Internal Server Error: /authoriz/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 46, in get
+    return render(request, 'authoriz.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authoriz.html
+[ERROR   :             django.server] - 2024-02-11 14:22:45,890 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 500 90469
+[INFO    :             django.server] - 2024-02-11 14:23:30,804 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4052
+[INFO    :             django.server] - 2024-02-11 14:23:34,569 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:23:34,581 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:23:44,675 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[ERROR   :            django.request] - 2024-02-11 14:23:44,759 : log_response @ 0241: Internal Server Error: /authoriz/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 46, in get
+    return render(request, 'authoriz.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authoriz.html
+[ERROR   :             django.server] - 2024-02-11 14:23:44,766 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 500 90469
+[INFO    :             django.server] - 2024-02-11 14:23:50,481 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4052
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:24:36,681 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:24:38,167 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 14:24:39,679 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:24:39,705 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 14:24:41,175 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:24:41,201 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:24:49,449 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[ERROR   :            django.request] - 2024-02-11 14:24:49,690 : log_response @ 0241: Internal Server Error: /authoriz/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 46, in get
+    return render(request, 'base/authoriz.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reg_pet' not found. 'reg_pet' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 14:24:49,718 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 500 170362
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:27:17,485 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 14:27:18,753 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 14:27:18,781 : log_message @ 0212: "GET / HTTP/1.1" 200 3618
+[INFO    :             django.server] - 2024-02-11 14:27:20,624 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:27:20,650 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:27:30,608 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:27:30,623 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3135
+[INFO    :             django.server] - 2024-02-11 14:28:33,818 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:28:33,840 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:28:43,071 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:28:43,086 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3144
+[INFO    :             django.server] - 2024-02-11 14:29:50,925 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:29:50,948 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:30:06,730 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:30:06,745 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3466
+[INFO    :             django.server] - 2024-02-11 14:30:14,215 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 3877
+[INFO    :             django.server] - 2024-02-11 14:30:20,039 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:30:20,051 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3897
+[INFO    :             django.server] - 2024-02-11 14:55:32,754 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 14:55:32,770 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3466
+[INFO    :   django.utils.autoreload] - 2024-02-11 14:59:57,903 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 15:00:08,322 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:00:08,348 : log_message @ 0212: "GET / HTTP/1.1" 200 4003
+[INFO    :             django.server] - 2024-02-11 15:00:28,746 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[ERROR   :            django.request] - 2024-02-11 15:00:28,888 : log_response @ 0241: Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'registration' not found. 'registration' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 15:00:28,903 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 500 149274
+[INFO    :                base.views] - 2024-02-11 15:00:53,710 : index @ 0014: Index page accessed
+[ERROR   :            django.request] - 2024-02-11 15:00:53,786 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 15, in index
+    return render(request, "base/home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'registration' not found. 'registration' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 15:00:53,800 : log_message @ 0212: "GET / HTTP/1.1" 500 147666
+[INFO    :             django.server] - 2024-02-11 15:00:58,983 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[ERROR   :            django.request] - 2024-02-11 15:00:59,069 : log_response @ 0241: Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'registration' not found. 'registration' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 15:00:59,079 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 500 149283
+[INFO    :   django.utils.autoreload] - 2024-02-11 15:03:03,785 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 15:03:06,363 : index @ 0014: Index page accessed
+[ERROR   :            django.request] - 2024-02-11 15:03:06,501 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 15, in index
+    return render(request, "base/home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '/reg_user' not found. '/reg_user' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 15:03:06,519 : log_message @ 0212: "GET / HTTP/1.1" 500 147591
+[INFO    :                base.views] - 2024-02-11 15:03:50,494 : index @ 0014: Index page accessed
+[ERROR   :            django.request] - 2024-02-11 15:03:50,575 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 15, in index
+    return render(request, "base/home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '/reg_user' not found. '/reg_user' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 15:03:50,588 : log_message @ 0212: "GET / HTTP/1.1" 500 147764
+[INFO    :                base.views] - 2024-02-11 15:03:52,215 : index @ 0014: Index page accessed
+[ERROR   :            django.request] - 2024-02-11 15:03:52,290 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 15, in index
+    return render(request, "base/home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '/reg_user' not found. '/reg_user' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-11 15:03:52,302 : log_message @ 0212: "GET / HTTP/1.1" 500 147764
+[INFO    :                base.views] - 2024-02-11 15:04:15,483 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:04:15,489 : log_message @ 0212: "GET / HTTP/1.1" 200 3523
+[INFO    :             django.server] - 2024-02-11 15:04:25,194 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3957
+[INFO    :             django.server] - 2024-02-11 15:04:39,765 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:04:39,781 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3851
+[INFO    :                base.views] - 2024-02-11 15:04:49,547 : index @ 0014: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:04:49,556 : log_message @ 0212: "GET / HTTP/1.1" 200 4003
+[INFO    :             django.server] - 2024-02-11 15:04:53,081 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:04:53,093 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3957
+[INFO    :   django.utils.autoreload] - 2024-02-11 15:18:39,625 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 15:18:41,020 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 15:18:43,459 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:18:43,479 : log_message @ 0212: "GET / HTTP/1.1" 200 3522
+[INFO    :             django.server] - 2024-02-11 15:18:46,566 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3956
+[INFO    :             django.server] - 2024-02-11 15:18:52,944 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3956
+[INFO    :             django.server] - 2024-02-11 15:19:04,516 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 200 4216
+[INFO    :             django.server] - 2024-02-11 15:19:16,545 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:19:16,561 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3598
+[INFO    :             django.server] - 2024-02-11 15:19:28,655 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3724
+[WARNING :            django.request] - 2024-02-11 15:19:34,527 : log_response @ 0241: Not Found: /home
+[WARNING :             django.server] - 2024-02-11 15:19:34,528 : log_message @ 0212: "GET /home HTTP/1.1" 404 3212
+[WARNING :            django.request] - 2024-02-11 15:20:44,585 : log_response @ 0241: Not Found: /home
+[WARNING :             django.server] - 2024-02-11 15:20:44,586 : log_message @ 0212: "GET /home HTTP/1.1" 404 3212
+[WARNING :            django.request] - 2024-02-11 15:20:49,268 : log_response @ 0241: Not Found: /home
+[WARNING :             django.server] - 2024-02-11 15:20:49,269 : log_message @ 0212: "GET /home HTTP/1.1" 404 3212
+[WARNING :            django.request] - 2024-02-11 15:20:52,011 : log_response @ 0241: Not Found: /home
+[WARNING :             django.server] - 2024-02-11 15:20:52,012 : log_message @ 0212: "GET /home HTTP/1.1" 404 3212
+[WARNING :            django.request] - 2024-02-11 15:20:53,203 : log_response @ 0241: Not Found: /home
+[WARNING :             django.server] - 2024-02-11 15:20:53,204 : log_message @ 0212: "GET /home HTTP/1.1" 404 3212
+[INFO    :   django.utils.autoreload] - 2024-02-11 15:21:12,434 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 15:21:15,304 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:21:15,333 : log_message @ 0212: "GET / HTTP/1.1" 200 3750
+[INFO    :             django.server] - 2024-02-11 15:21:19,434 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3719
+[INFO    :                base.views] - 2024-02-11 15:23:10,407 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:23:10,418 : log_message @ 0212: "GET / HTTP/1.1" 200 3750
+[INFO    :             django.server] - 2024-02-11 15:23:21,987 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3746
+[INFO    :                base.views] - 2024-02-11 15:23:26,431 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:23:26,438 : log_message @ 0212: "GET / HTTP/1.1" 200 3750
+[INFO    :             django.server] - 2024-02-11 15:23:31,542 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3746
+[INFO    :             django.server] - 2024-02-11 15:23:32,726 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:23:32,748 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3956
+[INFO    :             django.server] - 2024-02-11 15:25:28,820 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3956
+[INFO    :             django.server] - 2024-02-11 15:25:58,336 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:25:58,351 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3270
+[INFO    :             django.server] - 2024-02-11 15:26:09,541 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3417
+[INFO    :             django.server] - 2024-02-11 15:26:50,220 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3430
+[INFO    :                base.views] - 2024-02-11 15:27:29,493 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:27:29,502 : log_message @ 0212: "GET / HTTP/1.1" 200 3422
+[INFO    :             django.server] - 2024-02-11 15:27:45,270 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3430
+[INFO    :             django.server] - 2024-02-11 15:27:46,632 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:27:46,654 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3956
+[INFO    :                base.views] - 2024-02-11 15:27:50,013 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:27:50,016 : log_message @ 0212: "GET / HTTP/1.1" 200 3522
+[INFO    :             django.server] - 2024-02-11 15:27:59,552 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3956
+[INFO    :             django.server] - 2024-02-11 15:28:09,499 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:28:09,517 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3270
+[INFO    :             django.server] - 2024-02-11 15:28:21,352 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 3681
+[INFO    :                base.views] - 2024-02-11 15:29:56,175 : post @ 0071: Pet is registered
+[INFO    :             django.server] - 2024-02-11 15:29:56,179 : log_message @ 0212: "POST /reg_pet/ HTTP/1.1" 200 3184
+[INFO    :             django.server] - 2024-02-11 15:30:00,524 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3606
+[INFO    :                base.views] - 2024-02-11 15:32:01,233 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:32:01,240 : log_message @ 0212: "GET / HTTP/1.1" 200 3422
+[INFO    :                base.views] - 2024-02-11 15:33:29,886 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 15:33:29,888 : log_message @ 0212: "GET / HTTP/1.1" 200 3522
+[INFO    :             django.server] - 2024-02-11 15:33:30,212 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-11 15:33:30,228 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-11 15:33:30,228 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6803
+[INFO    :             django.server] - 2024-02-11 15:33:30,253 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-11 15:33:30,274 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[INFO    :             django.server] - 2024-02-11 15:33:53,257 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3956
+[INFO    :             django.server] - 2024-02-11 15:34:07,469 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 15:34:07,484 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3270
+[INFO    :                base.views] - 2024-02-11 16:00:26,328 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 16:00:26,341 : log_message @ 0212: "GET / HTTP/1.1" 200 3422
+[INFO    :             django.server] - 2024-02-11 16:01:06,751 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3192
+[INFO    :             django.server] - 2024-02-11 16:04:46,608 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 16:04:49,054 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 16:04:53,337 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3428
+[INFO    :             django.server] - 2024-02-11 16:04:54,427 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 16:04:54,448 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 16:05:14,613 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3056
+[INFO    :             django.server] - 2024-02-11 16:05:22,354 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :                base.views] - 2024-02-11 16:08:05,066 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 16:08:05,070 : log_message @ 0212: "GET / HTTP/1.1" 200 3520
+[INFO    :             django.server] - 2024-02-11 16:08:13,166 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 16:08:23,936 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 200 4214
+[INFO    :             django.server] - 2024-02-11 16:08:39,743 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 16:08:39,757 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3188
+[INFO    :                base.views] - 2024-02-11 16:08:45,381 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 16:08:45,388 : log_message @ 0212: "GET / HTTP/1.1" 200 3420
+[INFO    :                base.views] - 2024-02-11 18:40:10,843 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:40:10,858 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:40:20,786 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3428
+[INFO    :             django.server] - 2024-02-11 18:40:22,713 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 18:40:22,790 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :                base.views] - 2024-02-11 18:40:26,389 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:40:26,392 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :                base.views] - 2024-02-11 18:40:28,646 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:40:28,648 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :                base.views] - 2024-02-11 18:40:32,068 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:40:32,071 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :             django.server] - 2024-02-11 18:40:41,421 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 18:40:45,063 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 18:40:48,730 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 18:41:03,689 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 200 4211
+[INFO    :             django.server] - 2024-02-11 18:41:20,318 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 18:41:20,336 : log_message @ 0212: "GET /authoriz/ HTTP/1.1" 200 3188
+[INFO    :                base.views] - 2024-02-11 18:41:25,355 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:41:25,361 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :                base.views] - 2024-02-11 18:41:36,241 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:41:36,248 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:41:39,037 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 3679
+[INFO    :                base.views] - 2024-02-11 18:41:50,657 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:41:50,665 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:42:37,690 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:42:39,310 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:43:03,372 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 18:43:06,488 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:43:06,517 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:43:15,622 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3428
+[INFO    :             django.server] - 2024-02-11 18:43:17,317 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 18:43:17,349 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :                base.views] - 2024-02-11 18:43:26,930 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:43:26,938 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:44:30,257 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:44:31,600 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:44:48,929 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:44:50,235 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 18:44:54,352 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:44:54,373 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :             django.server] - 2024-02-11 18:44:57,834 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 18:45:07,213 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 18:45:07,220 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:45:07,229 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:48:22,731 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:48:24,074 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 18:48:26,065 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:48:26,100 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:48:29,035 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 3679
+[INFO    :                base.views] - 2024-02-11 18:48:31,741 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:48:31,748 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:48:34,848 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3428
+[INFO    :                base.views] - 2024-02-11 18:48:36,278 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:48:36,287 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :                base.views] - 2024-02-11 18:48:40,712 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:48:40,719 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:48:44,456 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3428
+[INFO    :             django.server] - 2024-02-11 18:49:45,349 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3442
+[INFO    :             django.server] - 2024-02-11 18:50:03,316 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3443
+[INFO    :             django.server] - 2024-02-11 18:50:05,040 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3443
+[ERROR   :            django.request] - 2024-02-11 18:50:28,123 : log_response @ 0241: Internal Server Error: /exit/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 51, in get
+    return render(request, 'base/exit.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'else', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-11 18:50:28,144 : log_message @ 0212: "GET /exit/ HTTP/1.1" 500 176541
+[ERROR   :            django.request] - 2024-02-11 18:50:40,802 : log_response @ 0241: Internal Server Error: /exit/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 51, in get
+    return render(request, 'base/exit.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'else', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-11 18:50:40,818 : log_message @ 0212: "GET /exit/ HTTP/1.1" 500 176541
+[ERROR   :            django.request] - 2024-02-11 18:50:45,275 : log_response @ 0241: Internal Server Error: /exit/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 51, in get
+    return render(request, 'base/exit.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'else', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-11 18:50:45,290 : log_message @ 0212: "GET /exit/ HTTP/1.1" 500 176404
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:51:32,657 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 18:51:45,460 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:51:45,488 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[ERROR   :            django.request] - 2024-02-11 18:51:51,846 : log_response @ 0241: Internal Server Error: /exit/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 51, in get
+    return render(request, 'base/exit.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'else', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-11 18:51:51,867 : log_message @ 0212: "GET /exit/ HTTP/1.1" 500 176404
+[INFO    :   django.utils.autoreload] - 2024-02-11 18:54:02,061 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-11 18:54:06,438 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:54:06,466 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[ERROR   :            django.request] - 2024-02-11 18:54:10,267 : log_response @ 0241: Internal Server Error: /exit/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 51, in get
+    return render(request, 'base/exit.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'else', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-11 18:54:10,287 : log_message @ 0212: "GET /exit/ HTTP/1.1" 500 178399
+[INFO    :             django.server] - 2024-02-11 18:55:28,160 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3443
+[INFO    :             django.server] - 2024-02-11 18:55:32,214 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 18:55:32,236 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 18:55:56,821 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-11 18:55:56,829 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:55:56,840 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:56:05,211 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3443
+[INFO    :                base.views] - 2024-02-11 18:56:09,188 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:56:09,196 : log_message @ 0212: "GET / HTTP/1.1" 200 3188
+[INFO    :             django.server] - 2024-02-11 18:58:03,154 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3443
+[INFO    :             django.server] - 2024-02-11 18:58:11,916 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-11 18:58:11,937 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :                base.views] - 2024-02-11 18:58:31,546 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:58:31,561 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :                base.views] - 2024-02-11 18:58:45,319 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:58:45,321 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :                base.views] - 2024-02-11 18:58:47,184 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-11 18:58:47,186 : log_message @ 0212: "GET / HTTP/1.1" 200 3548
+[INFO    :             django.server] - 2024-02-11 18:59:00,487 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954
+[INFO    :             django.server] - 2024-02-11 18:59:20,162 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3055
+[INFO    :             django.server] - 2024-02-11 18:59:23,790 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3954

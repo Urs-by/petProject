@@ -29,19 +29,12 @@
                 </div>
                 <div>
                     {% if user.is_authenticated %}
-                       <p>Hi {{ user.username }}!</p>
-                       <form action="{% url 'logout' %}" method="post">
-                           {% csrf_token %}
-                           <button type="submit">Log out</button>
-                       </form>
+                    <b>{{ user.username }}</b>
                     {% else %}
-                       <p>You are not logged in.</p>
-                       <a href="{% url 'login' %}">Log In</a>
+                        <a href="{% url 'login' %}">
+                            <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">
+                        </a>
                     {% endif %}
-<!--                    <a href="/accounts/login/">-->
-<!--                        <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">-->
-<!--                    </a>-->
-
                 </div>
             </div>
             <div class="header-right">
@@ -50,11 +43,18 @@
                     <span class="burger-icon"></span>
                 </button>
                 <nav class="menu">
-
-                    <li><a href="/">Главная</a></li>
-                    <li><a href="#">О проекте</a></li>
-                    <li><a href="#">Форум</a></li>
-                    <li><a href="#">Сообщество</a></li>
+                    {% if user.is_authenticated %}
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Форум</a></li>
+                        <li><a href="#">Сообщество</a></li>
+                        <li><a href="{% url 'exit' %}">Выход</a></li>
+                    {% else %}
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Форум</a></li>
+                        <li><a href="{% url 'login' %}">Вход</a></li>
+                    {% endif %}
 
                 </nav>
             </div>

@@ -4,7 +4,6 @@ from django.views import View
 from .models import UserCustom, Pet, PetPhoto
 from .forms import UserCustomForm, PetForm, PetPhotoForm
 
-
 import logging
 
 logger = logging.getLogger(__name__)
@@ -42,12 +41,21 @@ class UserRegistration(View):
     #
 
 
+# class AuthorizView(View):
+#     def get(self, request):
+#         return render(request, 'base/authoriz.html')
+
+
+class ExitView(View):
+    def get(self, request):
+        return render(request, 'base/exit.html')
+
+
 class PetRegistration(View):
     def get(self, request):
         message = 'Регистрация питомца'
         form = PetForm()
         return render(request, 'registration/pet_registration.html', context={'form': form, 'message': message})
-
 
     def post(self, request):
         if request.user.is_authenticated:

@@ -23,8 +23,6 @@ class Pet(models.Model):
     age = models.IntegerField(blank=True, null=True)
     owners = models.ManyToManyField(User, related_name='pet')
 
-    # photo = models.ImageField(upload_to='images/', blank=True, null=True)
-
     def __str__(self):
         return f' {self.nickname}, {self.breed}, {self.owners}'
 

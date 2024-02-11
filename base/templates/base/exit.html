@@ -1,0 +1,18 @@
+{% extends 'base/base.html' %}
+
+{% block one-third-one %}
+    {% if user.is_authenticated %}
+        <p> {{ user.username }},</p>
+        <p>для выхода из системы нажмите кнопку:</p>
+        <form action="{% url 'logout' %}" method="post">
+           {% csrf_token %}
+           <input class="form-registration" type="submit" value="Выйти">
+        </form>
+        <br>
+        <p> Для возврата на главную страницу перейдите по <a href="/">ссылке:</a></p>
+
+    {% else %}
+        <a href="{% url 'login' %}">Войти</a>
+    {% endif %}
+
+{% endblock %}
