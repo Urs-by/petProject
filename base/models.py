@@ -1,17 +1,25 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.validators import MinValueValidator, MaxValueValidator
+import os
+from uuid import uuid4
 
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
 
 # Create your models here.
+# def user_image_path(instance, filename):
+#     ext = filename.split('.')[-1]
+#     filename = f"{uuid4().hex}.{ext}"
+#     return os.path.join('user_images', str(instance.pet.id), filename)
+
 
 class UserCustom(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     city = models.CharField(max_length=50)
     pets = models.BooleanField(default=False)
-    image = models.ImageField(upload_to='images/', blank=True, null=True)
+    image = models.ImageField(upload_to='user/', blank=True, null=True)
 
     def __str__(self):
         return f'{self.user}'
@@ -29,7 +37,7 @@ class Pet(models.Model):
 
 class PetPhoto(models.Model):
     pet = models.ForeignKey(User, on_delete=models.CASCADE, related_name='pet_photos')
-    image = models.ImageField(upload_to='photos/')
+    image = models.ImageField(upload_to='pets/', null=True, blank=True)
     comment = models.TextField()
 
     def __str__(self):
@@ -43,7 +51,18 @@ class Shop(models.Model):
     street = models.CharField(max_length=50)
     coordinates_lat = models.FloatField(blank=True, null=True)
     coordinates_lng = models.FloatField(blank=True, null=True)
-    rating = models.DecimalField(max_digits=3, decimal_places=2, blank=True, null=True)
+    total_rating = models.DecimalField(max_digits=3, decimal_places=2, blank=True, null=True)
 
     def __str__(self):
         return f'{self.shop_name} , {self.rating}, {self.coordinates_lat}, {self.coordinates_lng}'
+
+
+class UserShopRating(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    shop = models.ForeignKey(Shop, on_delete=models.CASCADE)
+    users_rating = models.PositiveIntegerField(
+        validators=[
+            MinValueValidator(1),
+            MaxValueValidator(5)
+        ])
+    comment = models.TextField(blank=True)

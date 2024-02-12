@@ -1,0 +1,15 @@
+{% extends 'base/base.html' %}
+
+{% block one-third-one %}
+{% if user.is_authenticated %}
+    <h4>{{ message }}</h4>
+
+    {% for rating in ratings %}
+    <p> Объект : <b>"{{ rating.shop.shop_name }}"</b>, Моя оценка: <b>{{ rating.users_rating }}</b>,
+        Мой комментарий: "{{ rating.comment }}" </p>
+    {% endfor %}
+
+{% else %}
+<a href="{% url 'login' %}">войти</a>
+{% endif %}
+{% endblock %}

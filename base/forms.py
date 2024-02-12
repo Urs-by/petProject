@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from .models import User, Pet
+from django.core.validators import MinValueValidator, MaxValueValidator
 
 
 class UserCustomForm(UserCreationForm):
@@ -33,3 +34,16 @@ class PetPhotoForm(forms.Form):
     comment = forms.CharField(widget=forms.Textarea(), required=False, label="Комментарии")
 
 
+class ShopForm(forms.Form):
+    shop_name = forms.CharField(max_length=50, label="Название магазина")
+    legal_name = forms.CharField(max_length=50, required=False, label="Юридическое название",
+                                 widget=forms.TextInput(attrs={'placeholder': 'Если есть'}))
+    city = forms.CharField(max_length=50, label="Город")
+    street = forms.CharField(max_length=50, label="Улица, корпус, дом",
+                             widget=forms.TextInput(attrs={'placeholder': 'ул.Кирова, корп.1, д.20'}))
+    # coordinates_lat = forms.FloatField(required=False, label="Широта")
+    # coordinates_lng = forms.FloatField(required=False, label="Долгота")
+    user_rating = forms.IntegerField(min_value=1, max_value=5, label="Ваша оценка",
+                                widget=forms.TextInput(attrs={'placeholder': 'От 1 до 5'}))
+    comment = forms.CharField(max_length=250, required=False, label="Комментарии",
+                              widget=forms.TextInput(attrs={'placeholder': 'Опишите реакцию продавцов'}))

@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, authenticate
 from django.views import View
-from .models import UserCustom, Pet, PetPhoto
-from .forms import UserCustomForm, PetForm, PetPhotoForm
+from .models import UserCustom, Pet, PetPhoto, Shop, UserShopRating
+from .forms import UserCustomForm, PetForm, PetPhotoForm, ShopForm, PetPhotoForm
 
 import logging
 
@@ -41,9 +41,30 @@ class UserRegistration(View):
     #
 
 
-# class AuthorizView(View):
-#     def get(self, request):
-#         return render(request, 'base/authoriz.html')
+class SetRatingView(View):
+    def get(self, request):
+        message = 'Поставить оценку'
+        form = ShopForm()
+        context = {'form': form, 'message': message}
+        return render(request, 'base/set_rating.html', context=context)
+
+    def post(self, request):
+        if request.user.is_authenticated:
+            form = ShopForm(request.POST)
+            message = 'Ваша оценка не сохранена!'
+            if form.is_valid():
+                shop_name = form.cleaned_data['shop_name']
+                legal_name = form.cleaned_data['legal_name']
+                city = form.cleaned_data['city']  #
+                street = form.cleaned_data['street']
+                users_rating = form.cleaned_data['user_rating']
+                comment = form.cleaned_data['comment']
+                review = Shop.objects.create(shop_name=shop_name, legal_name=legal_name, city=city, street=street)
+                UserShopRating.objects.create(user=request.user, shop=review, users_rating=users_rating,
+                                              comment=comment)
+                message = 'Ваша оценка сохранена!'
+                context = {'message': message}
+                return render(request, 'base/base.html', context)
 
 
 class ExitView(View):
@@ -81,19 +102,46 @@ class UploadPhotos(View):
         message = 'Загрузка фото'
         form = PetPhotoForm()
         return render(request, 'base/upload_photo.html', {'form': form, 'message': message})
-# class UploadPhotos(View):
-#     def get(self, request):
-#         form = PetPhotoForm()
-#         return render(request, 'base/add_photo.html', {'form': form})
 
-# def post(self, request, pet_id):
-#    your_pet_instance = Pet.objects.get(id=pet_id)
-#    form = PetPhotoForm(request.POST, request.FILES)
-#    if form.is_valid():
-#        for image in request.FILES.getlist('images'):
-#            pet_photo = PetPhoto(pet=your_pet_instance, image=image)
-#            pet_photo.save()
-#        return redirect('success_url')
-#    else:
-#        form = PetPhotoForm()
-#    return render(request, 'base/upload_photo.html', {'form': form})
+    def post(self, request):
+        if request.user.is_authenticated:
+            form = PetPhotoForm(request.POST, request.FILES)
+            if form.is_valid():
+                user = request.user
+                image = form.cleaned_data['image']
+                comment = form.cleaned_data['comment']
+                PetPhoto.objects.create(pet=user, image=image, comment=comment)
+                message = 'Фотография загружена'
+                return render(request, 'base/my_pets.html', context={'message':message})
+
+
+
+class MyRatings(View):
+    def get(self, request):
+        message = 'Мои оценки'
+        user = request.user
+        ratings = UserShopRating.objects.filter(user=user)
+        context = {'ratings': ratings, 'message': message}
+        return render(request, 'base/my_ratings.html', context=context)
+
+
+class MyPets(View):
+    def get(self, request):
+        message = 'Мои питомцы'
+        user = request.user
+        pets = Pet.objects.filter(owners=user)
+        photos = PetPhoto.objects.filter(pet=user)
+        context = {'pets': pets, 'photos': photos, 'message': message}
+        return render(request, 'base/my_pets.html', context=context)
+
+
+class Forum(View):
+    def get(self, request):
+        message = 'Форум'
+        return render(request, 'base/forum.html', context={'message': message})
+
+
+class About(View):
+    def get(self, request):
+        message = 'О проекте'
+        return render(request, 'base/about.html', context={'message': message})

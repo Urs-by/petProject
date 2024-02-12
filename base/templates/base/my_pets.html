@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+{% block two-thirds-one %}
+    {% if user.is_authenticated %}
+        <h4>{{ message }}</h4>
+        {% for photo in photos %}
+        <li>
+            <img src="{{ photo.image.url }}" alt="Photo">
+            <p>{{ photo.comment }}</p>
+        </li>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
+
+{% block one-third-one %}
+    {% if user.is_authenticated %}
+        <h4>{{ message }}</h4>
+        {% for pet in pets %}
+        <p><a href="{% url 'photo' %}">  {{ pet.nickname }} </a>- {{ pet.breed }} </p>
+        {% endfor %}
+    {% else %}
+         <a href="{% url 'login' %}">войти</a>
+    {% endif %}
+{% endblock %}
+
+

@@ -206,7 +206,7 @@ input[type="submit"] {
     position: absolute;
     top: 60px;
     /*задаем  ширину блока со списком меню */
-    width: 130px;
+    /* width: 130px;*/
     background-color: #ddd9d3;
     border-radius: 5%;
     display: none;

@@ -45,14 +45,14 @@
                 <nav class="menu">
                     {% if user.is_authenticated %}
                         <li><a href="/">Главная</a></li>
-                        <li><a href="#">О проекте</a></li>
-                        <li><a href="#">Форум</a></li>
-                        <li><a href="#">Сообщество</a></li>
+                        <li><a href="{% url 'my_rating' %}">Мои оценки</a></li>
+                        <li><a href="{% url 'my_pets' %}">Мои питомцы</a></li>
+                        <li><a href="{% url 'forum' %}">Форум</a></li>
                         <li><a href="{% url 'exit' %}">Выход</a></li>
                     {% else %}
                         <li><a href="/">Главная</a></li>
-                        <li><a href="#">О проекте</a></li>
-                        <li><a href="#">Форум</a></li>
+                        <li><a href="{% url 'about' %}">О проекте</a></li>
+                        <li><a href="{% url 'forum' %}">Форум</a></li>
                         <li><a href="{% url 'login' %}">Вход</a></li>
                     {% endif %}
 
@@ -63,7 +63,9 @@
 
     <div class="main-content">
         <div class="two-thirds">
+            {% block two-thirds-one %}
 
+            {% endblock %}
             <!-- Первая часть занимает 2/3 экрана -->
             <!-- <h2>Первая часть</h2> -->
         </div>

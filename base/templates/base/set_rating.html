@@ -1,0 +1,15 @@
+{% extends 'base/base.html' %}
+
+{% block one-third-one %}
+    {% if user.is_authenticated %}
+        <h4>{{ message }}</h4>
+       <form method="post" enctype="multipart/form-data">
+           {% csrf_token %}
+           {{ form }}
+           <input class="form-registration" type="submit" value="Поставить оценку">
+       </form>
+    {% else %}
+         <a href="{% url 'login' %}">войти</a>
+    {% endif %}
+{% endblock %}
+
