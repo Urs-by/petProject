@@ -11411,3 +11411,28 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'.
 [INFO    :             django.server] - 2024-02-12 22:17:44,865 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3493
 [INFO    :                base.views] - 2024-02-12 22:17:51,096 : index @ 0013: Index page accessed
 [INFO    :             django.server] - 2024-02-12 22:17:51,113 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[INFO    :   django.utils.autoreload] - 2024-02-12 22:44:39,342 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-12 22:44:41,440 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-12 22:44:41,473 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[INFO    :             django.server] - 2024-02-12 22:44:44,820 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3493
+[INFO    :             django.server] - 2024-02-12 22:44:45,831 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-12 22:44:45,855 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3991
+[INFO    :             django.server] - 2024-02-12 22:44:47,975 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3991
+[INFO    :             django.server] - 2024-02-12 22:44:50,032 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 4294
+[INFO    :             django.server] - 2024-02-12 22:44:52,832 : log_message @ 0212: "GET /forum HTTP/1.1" 200 3138
+[INFO    :                base.views] - 2024-02-12 22:44:55,129 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-12 22:44:55,131 : log_message @ 0212: "GET / HTTP/1.1" 200 3585
+[INFO    :             django.server] - 2024-02-12 22:44:57,335 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3991
+[INFO    :             django.server] - 2024-02-12 22:45:06,981 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-12 22:45:06,989 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-12 22:45:06,997 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[INFO    :             django.server] - 2024-02-12 22:45:09,927 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3191
+[INFO    :             django.server] - 2024-02-12 22:45:12,223 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3792
+[WARNING :            django.request] - 2024-02-12 22:45:12,353 : log_response @ 0241: Not Found: /media/pets/top-v-samye-umnye-porody-sobak-960x540-1-960x540.jpg
+[WARNING :             django.server] - 2024-02-12 22:45:12,354 : log_message @ 0212: "GET /media/pets/top-v-samye-umnye-porody-sobak-960x540-1-960x540.jpg HTTP/1.1" 404 4066
+[WARNING :            django.request] - 2024-02-12 22:45:12,357 : log_response @ 0241: Not Found: /media/pets/baunty.jpg
+[WARNING :             django.server] - 2024-02-12 22:45:12,358 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 404 3940
+[INFO    :             django.server] - 2024-02-12 22:45:14,904 : log_message @ 0212: "GET /forum HTTP/1.1" 200 3051
+[INFO    :             django.server] - 2024-02-12 22:45:17,301 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3493
+[INFO    :             django.server] - 2024-02-12 22:45:18,939 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-12 22:45:18,967 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3991

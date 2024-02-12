@@ -23,7 +23,6 @@ class UserRegistration(View):
     def post(self, request):
         form = UserCustomForm(request.POST, request.FILES)
         message = 'Регистрация не выполнена!'
-        # new_user = UserCustom()
         if form.is_valid():
             user = form.save()
             pets = form.cleaned_data['pets']
@@ -62,9 +61,11 @@ class SetRatingView(View):
                 review = Shop.objects.create(shop_name=shop_name, legal_name=legal_name, city=city, street=street)
                 UserShopRating.objects.create(user=request.user, shop=review, users_rating=users_rating,
                                               comment=comment)
+                logger.info('Rating is saved')
                 message = 'Ваша оценка сохранена!'
                 context = {'message': message}
                 return render(request, 'base/base.html', context)
+        return render(request, 'base/set_rating.html', {'form': form, 'message': message})
 
 
 class ExitView(View):
@@ -112,8 +113,9 @@ class UploadPhotos(View):
                 comment = form.cleaned_data['comment']
                 PetPhoto.objects.create(pet=user, image=image, comment=comment)
                 message = 'Фотография загружена'
-                return render(request, 'base/my_pets.html', context={'message':message})
-
+                return render(request, 'base/my_pets.html', context={'message': message})
+            else:
+                return redirect('login')
 
 
 class MyRatings(View):
