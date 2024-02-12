@@ -18,7 +18,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -26,10 +25,12 @@ LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 SECRET_KEY = 'django-insecure-53e3lhl0f&5r73tnb%op7tvgmyyedla)purv^@b^qrs-f)tcal'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
+ALLOWED_HOSTS = ['ursby.pythonanywhere.com', ]
 
 # Application definition
 
@@ -73,18 +74,27 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'friendlydogs.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     # 'NAME': BASE_DIR / 'db.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # }
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Ursby$default',
+        'USER': 'Ursby',
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+        'HOST': 'Ursby.mysql.pythonanywhere-services.com',
+        'OPTIONS': {'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
+                    'charset': 'utf8mb4',
+                    },
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -104,7 +114,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -116,17 +125,17 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'base/static'),
 ]
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'base/media/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
