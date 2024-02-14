@@ -11436,3 +11436,1090 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'.
 [INFO    :             django.server] - 2024-02-12 22:45:17,301 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3493
 [INFO    :             django.server] - 2024-02-12 22:45:18,939 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
 [INFO    :             django.server] - 2024-02-12 22:45:18,967 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3991
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:00:28,767 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:01:23,674 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:01:26,828 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   : django.security.DisallowedHost] - 2024-02-13 16:01:31,121 : response_for_exception @ 0124: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-02-13 16:01:31,694 : log_response @ 0241: Bad Request: /
+[WARNING :             django.server] - 2024-02-13 16:01:31,715 : log_message @ 0212: "GET / HTTP/1.1" 400 70016
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:02:00,969 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:02:02,669 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   : django.security.DisallowedHost] - 2024-02-13 16:02:04,270 : response_for_exception @ 0124: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-02-13 16:02:04,459 : log_response @ 0241: Bad Request: /
+[WARNING :             django.server] - 2024-02-13 16:02:04,461 : log_message @ 0212: "GET / HTTP/1.1" 400 70062
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:02:28,317 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:02:30,136 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-13 16:02:32,565 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 16:02:32,702 : log_message @ 0212: "GET / HTTP/1.1" 200 3585
+[INFO    :             django.server] - 2024-02-13 16:02:32,763 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 16:02:32,765 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:05:23,034 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:05:24,857 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-13 16:17:59,595 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 16:17:59,628 : log_message @ 0212: "GET / HTTP/1.1" 200 3585
+[INFO    :             django.server] - 2024-02-13 16:18:02,818 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 3991
+[INFO    :             django.server] - 2024-02-13 16:18:11,549 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-13 16:18:11,570 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 16:18:11,596 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[ERROR   :            django.request] - 2024-02-13 16:18:15,109 : log_response @ 0241: Internal Server Error: /my_pets
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 137, in get
+    return render(request, 'base/my_pets.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'media', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-13 16:18:15,142 : log_message @ 0212: "GET /my_pets HTTP/1.1" 500 217812
+[ERROR   :            django.request] - 2024-02-13 16:18:59,904 : log_response @ 0241: Internal Server Error: /my_pets
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 137, in get
+    return render(request, 'base/my_pets.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'media', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-13 16:18:59,930 : log_message @ 0212: "GET /my_pets HTTP/1.1" 500 218105
+[INFO    :             django.server] - 2024-02-13 16:19:16,183 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3880
+[INFO    :             django.server] - 2024-02-13 16:19:18,327 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3654
+[INFO    :             django.server] - 2024-02-13 16:19:32,438 : log_message @ 0212: "POST /upload_photo/ HTTP/1.1" 200 3101
+[ERROR   :            django.request] - 2024-02-13 16:21:43,909 : log_response @ 0241: Internal Server Error: /my_pets
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 137, in get
+    return render(request, 'base/my_pets.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'media', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-13 16:21:43,928 : log_message @ 0212: "GET /my_pets HTTP/1.1" 500 218189
+[ERROR   :            django.request] - 2024-02-13 16:31:43,872 : log_response @ 0241: Internal Server Error: /my_pets
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 137, in get
+    return render(request, 'base/my_pets.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'media', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-13 16:31:43,913 : log_message @ 0212: "GET /my_pets HTTP/1.1" 500 217687
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:34:50,305 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:34:52,324 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:35:27,084 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\friendlydogs\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:35:28,458 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:35:59,266 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:36:00,992 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:36:27,499 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 16:36:29,211 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-13 16:36:30,805 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 16:36:30,836 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[ERROR   :            django.request] - 2024-02-13 16:36:36,820 : log_response @ 0241: Internal Server Error: /my_pets
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 137, in get
+    return render(request, 'base/my_pets.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'media', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-13 16:36:36,866 : log_message @ 0212: "GET /my_pets HTTP/1.1" 500 217674
+[INFO    :                base.views] - 2024-02-13 16:37:13,794 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 16:37:13,818 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[INFO    :             django.server] - 2024-02-13 16:37:15,327 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 3729
+[INFO    :             django.server] - 2024-02-13 16:37:17,074 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-13 16:38:30,556 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3496
+[INFO    :             django.server] - 2024-02-13 16:38:33,156 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3654
+[INFO    :             django.server] - 2024-02-13 16:38:47,008 : log_message @ 0212: "POST /upload_photo/ HTTP/1.1" 200 3085
+[INFO    :             django.server] - 2024-02-13 16:38:50,077 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3599
+[INFO    :             django.server] - 2024-02-13 16:41:03,511 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3496
+[INFO    :             django.server] - 2024-02-13 16:41:07,831 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3654
+[INFO    :             django.server] - 2024-02-13 16:41:17,405 : log_message @ 0212: "POST /upload_photo/ HTTP/1.1" 200 3085
+[INFO    :             django.server] - 2024-02-13 16:41:27,140 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3599
+[INFO    :             django.server] - 2024-02-13 16:41:52,285 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3617
+[INFO    :             django.server] - 2024-02-13 16:41:52,459 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 200 28808
+[INFO    :             django.server] - 2024-02-13 16:42:09,284 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3654
+[INFO    :             django.server] - 2024-02-13 16:42:27,662 : log_message @ 0212: "POST /upload_photo/ HTTP/1.1" 200 3085
+[INFO    :             django.server] - 2024-02-13 16:42:31,826 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3748
+[INFO    :             django.server] - 2024-02-13 16:42:31,907 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 16:42:31,924 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 200 59813
+[INFO    :             django.server] - 2024-02-13 17:00:13,891 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3550
+[INFO    :             django.server] - 2024-02-13 17:02:17,718 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3642
+[INFO    :             django.server] - 2024-02-13 17:07:55,693 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3916
+[INFO    :             django.server] - 2024-02-13 17:07:55,759 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:07:55,760 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:10:13,256 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3999
+[INFO    :             django.server] - 2024-02-13 17:12:57,160 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4005
+[INFO    :             django.server] - 2024-02-13 17:13:00,998 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4005
+[INFO    :             django.server] - 2024-02-13 17:13:01,112 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-13 17:13:01,128 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6808
+[INFO    :             django.server] - 2024-02-13 17:13:01,159 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-13 17:13:01,167 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-13 17:13:01,724 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-13 17:13:01,726 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-13 17:15:25,212 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3511
+[ERROR   :            django.request] - 2024-02-13 17:19:25,083 : log_response @ 0241: Internal Server Error: /my_pets
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 137, in get
+    return render(request, 'base/my_pets.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 196, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'int' object is not iterable
+[ERROR   :             django.server] - 2024-02-13 17:19:25,097 : log_message @ 0212: "GET /my_pets HTTP/1.1" 500 161216
+[ERROR   :            django.request] - 2024-02-13 17:21:01,584 : log_response @ 0241: Internal Server Error: /upload_photo/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 116, in post
+    return render(request, 'base/my_pets.html', context={'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\defaulttags.py", line 196, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'int' object is not iterable
+[ERROR   :             django.server] - 2024-02-13 17:21:01,598 : log_message @ 0212: "POST /upload_photo/ HTTP/1.1" 500 163083
+[INFO    :             django.server] - 2024-02-13 17:22:28,539 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3654
+[INFO    :   django.utils.autoreload] - 2024-02-13 17:24:57,713 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-13 17:24:59,462 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-13 17:25:02,823 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4429
+[INFO    :             django.server] - 2024-02-13 17:25:02,879 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:25:02,881 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:25:03,016 : log_message @ 0212: "GET /media/pets/baunty_P6BuP6m.jpg HTTP/1.1" 200 59813
+[INFO    :             django.server] - 2024-02-13 17:25:32,289 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4562
+[INFO    :             django.server] - 2024-02-13 17:27:01,954 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4562
+[INFO    :             django.server] - 2024-02-13 17:28:46,907 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4563
+[INFO    :             django.server] - 2024-02-13 17:29:15,007 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4563
+[INFO    :             django.server] - 2024-02-13 17:29:50,665 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4563
+[INFO    :             django.server] - 2024-02-13 17:31:33,078 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4563
+[INFO    :             django.server] - 2024-02-13 17:31:33,163 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-13 17:31:33,164 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7020
+[INFO    :             django.server] - 2024-02-13 17:31:33,164 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-13 17:31:33,219 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-13 17:31:33,784 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-13 17:31:33,785 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-13 17:32:10,317 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4563
+[INFO    :             django.server] - 2024-02-13 17:32:10,401 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7020
+[INFO    :             django.server] - 2024-02-13 17:33:57,286 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4563
+[INFO    :             django.server] - 2024-02-13 17:33:57,358 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6936
+[INFO    :             django.server] - 2024-02-13 17:35:28,487 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 5937
+[INFO    :             django.server] - 2024-02-13 17:35:28,573 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:35:28,573 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:35:28,575 : log_message @ 0212: "GET /media/pets/baunty_P6BuP6m.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:35:28,576 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6935
+[INFO    :             django.server] - 2024-02-13 17:36:34,762 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4642
+[INFO    :             django.server] - 2024-02-13 17:36:34,819 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:39:06,595 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4642
+[INFO    :             django.server] - 2024-02-13 17:39:06,637 : log_message @ 0212: "GET /media/pets/baunty_P6BuP6m.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:39:06,639 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6977
+[INFO    :             django.server] - 2024-02-13 17:39:59,330 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4125
+[INFO    :             django.server] - 2024-02-13 17:39:59,413 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 17:40:02,384 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4125
+[INFO    :             django.server] - 2024-02-13 17:40:02,480 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 6977
+[INFO    :             django.server] - 2024-02-13 17:40:02,481 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-13 17:40:02,483 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 200 28808
+[INFO    :             django.server] - 2024-02-13 17:40:02,484 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-13 17:40:02,486 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 200 59813
+[INFO    :             django.server] - 2024-02-13 17:40:02,486 : log_message @ 0212: "GET /media/pets/baunty_P6BuP6m.jpg HTTP/1.1" 200 59813
+[INFO    :             django.server] - 2024-02-13 17:40:02,513 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-13 17:40:02,901 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-13 17:40:02,904 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-13 17:40:24,523 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3926
+[INFO    :             django.server] - 2024-02-13 17:40:24,565 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 18:41:47,079 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3873
+[INFO    :             django.server] - 2024-02-13 18:41:47,126 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 18:41:47,128 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 18:41:47,128 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-13 18:53:54,245 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-13 18:53:56,073 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 18:53:56,101 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[INFO    :             django.server] - 2024-02-13 18:53:56,148 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 18:54:00,822 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3870
+[INFO    :             django.server] - 2024-02-13 18:54:00,907 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 18:54:00,915 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 18:56:31,924 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3870
+[INFO    :             django.server] - 2024-02-13 18:56:33,098 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3870
+[INFO    :             django.server] - 2024-02-13 18:56:34,008 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3870
+[INFO    :             django.server] - 2024-02-13 18:57:10,903 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3830
+[INFO    :             django.server] - 2024-02-13 19:09:48,548 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-02-13 19:09:48,623 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:09:48,625 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:09:48,721 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7215
+[INFO    :             django.server] - 2024-02-13 19:10:31,204 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-02-13 19:10:31,242 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7216
+[INFO    :             django.server] - 2024-02-13 19:10:32,798 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-02-13 19:10:32,833 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:11:08,160 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-02-13 19:11:08,200 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:11:09,416 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-02-13 19:11:44,868 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-02-13 19:11:44,953 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7151
+[INFO    :             django.server] - 2024-02-13 19:11:46,190 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-02-13 19:11:46,227 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:13:55,596 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:13:55,648 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:13:58,211 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:14:00,195 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:14:07,133 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3191
+[INFO    :             django.server] - 2024-02-13 19:14:14,561 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:14:14,600 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-13 19:15:45,076 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-13 19:15:46,559 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 19:15:46,640 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[INFO    :             django.server] - 2024-02-13 19:15:46,821 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7216
+[INFO    :             django.server] - 2024-02-13 19:15:50,265 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:15:50,304 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:16:15,045 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:16:15,087 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7196
+[INFO    :             django.server] - 2024-02-13 19:16:46,724 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:16:46,802 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7489
+[INFO    :             django.server] - 2024-02-13 19:21:05,038 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:21:05,076 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7506
+[INFO    :             django.server] - 2024-02-13 19:21:37,994 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:21:38,032 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7489
+[INFO    :             django.server] - 2024-02-13 19:21:39,428 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:21:39,465 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:21:42,243 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3934
+[INFO    :             django.server] - 2024-02-13 19:21:42,338 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:21:57,768 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:24:34,958 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3984
+[INFO    :             django.server] - 2024-02-13 19:24:35,000 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:24:35,004 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:25:17,018 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3984
+[INFO    :             django.server] - 2024-02-13 19:25:17,059 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:25:17,060 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:25:45,678 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 3984
+[INFO    :             django.server] - 2024-02-13 19:25:45,752 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7489
+[INFO    :             django.server] - 2024-02-13 19:25:53,874 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3654
+[INFO    :             django.server] - 2024-02-13 19:25:53,912 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:26:06,354 : log_message @ 0212: "POST /upload_photo/ HTTP/1.1" 200 3145
+[INFO    :             django.server] - 2024-02-13 19:26:06,427 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:26:09,623 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4209
+[INFO    :             django.server] - 2024-02-13 19:26:09,659 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:26:09,675 : log_message @ 0212: "GET /media/pets/359-0-bergamasco.jpg HTTP/1.1" 200 222517
+[INFO    :             django.server] - 2024-02-13 19:26:16,860 : log_message @ 0212: "GET /upload_photo/ HTTP/1.1" 200 3654
+[INFO    :             django.server] - 2024-02-13 19:26:16,943 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:27:08,507 : log_message @ 0212: "POST /upload_photo/ HTTP/1.1" 200 3145
+[INFO    :             django.server] - 2024-02-13 19:27:08,546 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:27:11,871 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4471
+[INFO    :             django.server] - 2024-02-13 19:27:11,932 : log_message @ 0212: "GET /media/pets/359-0-bergamasco.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:27:11,947 : log_message @ 0212: "GET /media/pets/doberman.jpg HTTP/1.1" 200 127134
+[INFO    :             django.server] - 2024-02-13 19:28:15,189 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4471
+[INFO    :             django.server] - 2024-02-13 19:28:15,255 : log_message @ 0212: "GET /media/pets/doberman.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:28:15,257 : log_message @ 0212: "GET /media/pets/359-0-bergamasco.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 19:28:15,259 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7499
+[INFO    :             django.server] - 2024-02-13 19:28:21,430 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-13 21:24:29,941 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-13 21:24:31,500 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 21:24:31,562 : log_message @ 0212: "GET / HTTP/1.1" 200 3241
+[INFO    :             django.server] - 2024-02-13 21:24:31,799 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7580
+[INFO    :                base.views] - 2024-02-13 21:30:29,878 : index @ 0013: Index page accessed
+[ERROR   :            django.request] - 2024-02-13 21:30:30,520 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 14, in index
+    return render(request, "base/home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'one-third-one' appears more than once
+[ERROR   :             django.server] - 2024-02-13 21:30:30,535 : log_message @ 0212: "GET / HTTP/1.1" 500 153782
+[INFO    :                base.views] - 2024-02-13 21:31:21,291 : index @ 0013: Index page accessed
+[ERROR   :            django.request] - 2024-02-13 21:31:21,375 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 14, in index
+    return render(request, "base/home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR   :             django.server] - 2024-02-13 21:31:21,389 : log_message @ 0212: "GET / HTTP/1.1" 500 167356
+[INFO    :                base.views] - 2024-02-13 21:31:44,008 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 21:31:44,032 : log_message @ 0212: "GET / HTTP/1.1" 200 3324
+[INFO    :             django.server] - 2024-02-13 21:31:44,104 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :                base.views] - 2024-02-13 21:39:12,600 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 21:39:12,625 : log_message @ 0212: "GET / HTTP/1.1" 200 3370
+[INFO    :             django.server] - 2024-02-13 21:39:12,717 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 21:39:12,717 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 7633
+[INFO    :                base.views] - 2024-02-13 21:40:12,609 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 21:40:12,634 : log_message @ 0212: "GET / HTTP/1.1" 200 3395
+[INFO    :             django.server] - 2024-02-13 21:40:12,703 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-13 21:42:01,924 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 21:42:01,948 : log_message @ 0212: "GET / HTTP/1.1" 200 3395
+[INFO    :             django.server] - 2024-02-13 21:42:01,993 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 21:42:01,995 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-13 21:45:05,574 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 21:45:05,584 : log_message @ 0212: "GET / HTTP/1.1" 200 3484
+[INFO    :             django.server] - 2024-02-13 21:45:05,628 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 21:45:05,628 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-13 22:14:38,697 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-13 22:14:40,580 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:14:40,613 : log_message @ 0212: "GET / HTTP/1.1" 200 3484
+[INFO    :             django.server] - 2024-02-13 22:14:40,682 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:14:40,792 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8186
+[INFO    :                base.views] - 2024-02-13 22:16:09,349 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:16:09,367 : log_message @ 0212: "GET / HTTP/1.1" 200 3484
+[INFO    :             django.server] - 2024-02-13 22:16:09,439 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8187
+[INFO    :                base.views] - 2024-02-13 22:21:03,111 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:21:03,119 : log_message @ 0212: "GET / HTTP/1.1" 200 3484
+[INFO    :             django.server] - 2024-02-13 22:21:03,160 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:21:03,161 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8278
+[INFO    :             django.server] - 2024-02-13 22:21:25,225 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-13 22:22:42,215 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:22:42,232 : log_message @ 0212: "GET / HTTP/1.1" 200 3484
+[INFO    :             django.server] - 2024-02-13 22:22:42,309 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8277
+[INFO    :                base.views] - 2024-02-13 22:25:23,732 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:25:23,747 : log_message @ 0212: "GET / HTTP/1.1" 200 3541
+[INFO    :             django.server] - 2024-02-13 22:25:23,787 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8278
+[INFO    :                base.views] - 2024-02-13 22:26:11,608 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:26:11,615 : log_message @ 0212: "GET / HTTP/1.1" 200 3541
+[INFO    :             django.server] - 2024-02-13 22:26:11,648 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8278
+[INFO    :             django.server] - 2024-02-13 22:26:24,219 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4617
+[INFO    :             django.server] - 2024-02-13 22:26:24,299 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:24,300 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:24,301 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:24,303 : log_message @ 0212: "GET /media/pets/359-0-bergamasco.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:24,304 : log_message @ 0212: "GET /media/pets/doberman.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:28,604 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3337
+[INFO    :             django.server] - 2024-02-13 22:26:28,642 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:32,319 : log_message @ 0212: "GET /forum HTTP/1.1" 200 3197
+[INFO    :             django.server] - 2024-02-13 22:26:32,357 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:34,994 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4617
+[INFO    :             django.server] - 2024-02-13 22:26:35,034 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-13 22:26:37,347 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:26:37,354 : log_message @ 0212: "GET / HTTP/1.1" 200 3541
+[INFO    :                base.views] - 2024-02-13 22:26:56,003 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:26:56,011 : log_message @ 0212: "GET / HTTP/1.1" 200 3541
+[INFO    :             django.server] - 2024-02-13 22:26:56,049 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:56,049 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:26:58,514 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3639
+[INFO    :             django.server] - 2024-02-13 22:27:07,905 : log_message @ 0212: "POST /accounts/logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-13 22:27:08,132 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4129
+[INFO    :             django.server] - 2024-02-13 22:27:08,181 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-13 22:27:11,304 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:27:11,311 : log_message @ 0212: "GET / HTTP/1.1" 200 3877
+[INFO    :                base.views] - 2024-02-13 22:28:24,057 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:28:24,060 : log_message @ 0212: "GET / HTTP/1.1" 200 3877
+[INFO    :             django.server] - 2024-02-13 22:28:24,096 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8297
+[INFO    :             django.server] - 2024-02-13 22:28:36,915 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-13 22:29:16,521 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:29:16,524 : log_message @ 0212: "GET / HTTP/1.1" 200 3877
+[INFO    :             django.server] - 2024-02-13 22:29:16,580 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-13 22:29:22,006 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-13 22:29:25,195 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-13 22:29:25,198 : log_message @ 0212: "GET / HTTP/1.1" 200 3877
+[INFO    :   django.utils.autoreload] - 2024-02-14 11:39:02,354 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-14 11:39:04,890 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:39:04,943 : log_message @ 0212: "GET / HTTP/1.1" 200 4146
+[INFO    :             django.server] - 2024-02-14 11:39:05,142 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 11:39:05,163 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 11:39:05,337 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 833
+[INFO    :                base.views] - 2024-02-14 11:43:04,926 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:43:05,029 : log_message @ 0212: "GET / HTTP/1.1" 200 4134
+[INFO    :             django.server] - 2024-02-14 11:43:05,248 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8349
+[INFO    :             django.server] - 2024-02-14 11:43:05,262 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-14 11:43:05,334 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-14 11:43:06,233 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 833
+[INFO    :             django.server] - 2024-02-14 11:43:07,087 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[INFO    :             django.server] - 2024-02-14 11:43:07,299 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-14 11:43:07,411 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[WARNING :            django.request] - 2024-02-14 11:43:11,718 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-14 11:43:11,719 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-14 11:43:53,845 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:43:53,855 : log_message @ 0212: "GET / HTTP/1.1" 200 4134
+[INFO    :             django.server] - 2024-02-14 11:43:53,967 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-14 11:43:53,967 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8347
+[INFO    :             django.server] - 2024-02-14 11:43:53,968 : log_message @ 0212: "GET /static/img/logo/person.svg HTTP/1.1" 200 576
+[INFO    :             django.server] - 2024-02-14 11:43:53,998 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-14 11:43:54,006 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 833
+[INFO    :             django.server] - 2024-02-14 11:43:54,018 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-14 11:43:54,042 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-14 11:43:54,533 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-14 11:43:54,534 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-14 11:44:35,048 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 11:46:49,039 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4393
+[INFO    :             django.server] - 2024-02-14 11:46:49,135 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8353
+[INFO    :             django.server] - 2024-02-14 11:46:49,159 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 11:47:05,735 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-14 11:47:05,744 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:47:05,755 : log_message @ 0212: "GET / HTTP/1.1" 200 3805
+[INFO    :             django.server] - 2024-02-14 11:47:05,796 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-14 11:48:06,669 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:48:06,694 : log_message @ 0212: "GET / HTTP/1.1" 200 3793
+[INFO    :             django.server] - 2024-02-14 11:48:06,756 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 11:48:06,772 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-14 11:48:10,755 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:48:10,766 : log_message @ 0212: "GET / HTTP/1.1" 200 3793
+[INFO    :             django.server] - 2024-02-14 11:48:39,104 : log_message @ 0212: "GET /exit/ HTTP/1.1" 200 3903
+[INFO    :             django.server] - 2024-02-14 11:48:39,192 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 11:49:14,085 : handle_error @ 0081: - Broken pipe from ('127.0.0.1', 51380)
+[INFO    :                base.views] - 2024-02-14 11:49:46,610 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:49:46,622 : log_message @ 0212: "GET / HTTP/1.1" 200 4121
+[INFO    :                base.views] - 2024-02-14 11:49:46,627 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 11:49:46,636 : log_message @ 0212: "GET / HTTP/1.1" 200 4121
+[INFO    :             django.server] - 2024-02-14 11:49:46,684 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 11:49:46,739 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-14 12:08:57,130 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-14 12:09:12,263 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 12:09:12,328 : log_message @ 0212: "GET / HTTP/1.1" 200 4121
+[INFO    :             django.server] - 2024-02-14 12:09:12,440 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:09:12,485 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-02-14 12:09:14,652 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-14 12:09:14,654 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-14 12:12:00,531 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 12:12:00,538 : log_message @ 0212: "GET / HTTP/1.1" 200 4121
+[INFO    :             django.server] - 2024-02-14 12:12:00,696 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8349
+[INFO    :                base.views] - 2024-02-14 12:13:21,658 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 12:13:21,665 : log_message @ 0212: "GET / HTTP/1.1" 200 4136
+[INFO    :             django.server] - 2024-02-14 12:13:21,701 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:13:21,719 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:13:30,723 : log_message @ 0212: "GET /accounts/login/ HTTP/1.1" 200 4388
+[INFO    :             django.server] - 2024-02-14 12:13:30,765 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:13:45,767 : log_message @ 0212: "POST /accounts/login/ HTTP/1.1" 302 0
+[INFO    :                base.views] - 2024-02-14 12:13:45,775 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 12:13:45,785 : log_message @ 0212: "GET / HTTP/1.1" 200 3800
+[INFO    :             django.server] - 2024-02-14 12:13:45,830 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:13:51,852 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4830
+[INFO    :             django.server] - 2024-02-14 12:13:51,924 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:13:51,924 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:13:51,981 : log_message @ 0212: "GET /media/pets/doberman.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 12:13:51,981 : log_message @ 0212: "GET /media/pets/359-0-bergamasco.jpg HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-14 12:13:59,820 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 12:13:59,835 : log_message @ 0212: "GET / HTTP/1.1" 200 3800
+[INFO    :             django.server] - 2024-02-14 12:13:59,931 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0

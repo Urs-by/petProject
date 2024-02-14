@@ -273,6 +273,52 @@ input[type="submit"] {
     height: 85vh
 }
 
+.ymaps {
+    width: 100%;
+    height: 100%;
+}
+
+/* для упорядочного отображения фотографий */
+.photos-container {
+    width: 100%;
+    /* Ширина контейнера для фотографий */
+    display: flex;
+    /* Используем flexbox для упорядочивания элементов */
+    flex-wrap: wrap;
+    /* Разрешаем перенос элементов на новую строку */
+    justify-content: flex-start;
+    /* Выравнивание элементов в начале строки */
+
+}
+
+.photo-container {
+    width: 250px;
+    /* Ширина блока с изображением */
+    height: 150px;
+    /* Высота автоматически подстраивается под содержимое */
+    margin: 5px;
+}
+
+.promotion {
+    width: 100%;
+    height: 0;
+    /* Начальная высота равна 0 */
+    padding-bottom: 65%;
+    /* Соотношение сторон 4:3 (75% = 3/4 * 100%) */
+    position: relative;
+}
+
+.promotion img {
+    position: absolute;
+    padding: 5px;
+    width: 100%;
+    /* Ширина изображения равна ширине контейнера */
+    height: 100%;
+    /* Высота изображения равна высоте контейнера */
+    object-fit: cover;
+    /* Растягивает изображение, чтобы оно покрыло всё пространство контейнера */
+}
+
 .two-thirds {
     flex: 2;
     background-color: #eadfd0;

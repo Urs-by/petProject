@@ -25,12 +25,14 @@ LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 SECRET_KEY = 'django-insecure-53e3lhl0f&5r73tnb%op7tvgmyyedla)purv^@b^qrs-f)tcal'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = ['ursby.pythonanywhere.com', ]
+ALLOWED_HOSTS = []
+
+    # 'ursby.pythonanywhere.com', ]
 
 # Application definition
 
@@ -78,22 +80,22 @@ WSGI_APPLICATION = 'friendlydogs.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     # 'NAME': BASE_DIR / 'db.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Ursby$default',
-        'USER': 'Ursby',
-        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'Ursby.mysql.pythonanywhere-services.com',
-        'OPTIONS': {'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
-                    'charset': 'utf8mb4',
-                    },
+        'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'Ursby$default',
+    #     'USER': 'Ursby',
+    #     'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+    #     'HOST': 'Ursby.mysql.pythonanywhere-services.com',
+    #     'OPTIONS': {'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
+    #                 'charset': 'utf8mb4',
+    #                 },
+    # }
 }
 
 # Password validation
@@ -129,9 +131,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static/'),
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'base/static'),
+    os.path.join(BASE_DIR, 'static/'),
 ]
 
 MEDIA_URL = '/media/'

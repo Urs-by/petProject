@@ -5,8 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" >
-
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=bb29728e-d4fe-4d8a-a24a-682fdb8da56f&lang=ru_RU"
+        type="text/javascript">
+        </script>
+    <script src="{% static '/js/mapscript.js' %}" defer></script>
     <title>{% block title %}{% endblock %}</title>
 </head>
 
@@ -31,9 +34,9 @@
                     {% if user.is_authenticated %}
                     <b>{{ user.username }}</b>
                     {% else %}
-                        <a href="{% url 'login' %}">
-                            <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">
-                        </a>
+                    <a href="{% url 'login' %}">
+                        <img src="{% static '/img/logo/person.svg' %} " alt="Авторизация" class="enter-icon">
+                    </a>
                     {% endif %}
                 </div>
             </div>
@@ -44,16 +47,16 @@
                 </button>
                 <nav class="menu">
                     {% if user.is_authenticated %}
-                        <li><a href="/">Главная</a></li>
-                        <li><a href="{% url 'my_rating' %}">Мои оценки</a></li>
-                        <li><a href="{% url 'my_pets' %}">Мои питомцы</a></li>
-                        <li><a href="{% url 'forum' %}">Форум</a></li>
-                        <li><a href="{% url 'exit' %}">Выход</a></li>
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="{% url 'my_rating' %}">Мои оценки</a></li>
+                    <li><a href="{% url 'my_pets' %}">Мои питомцы</a></li>
+                    <li><a href="{% url 'forum' %}">Форум</a></li>
+                    <li><a href="{% url 'exit' %}">Выход</a></li>
                     {% else %}
-                        <li><a href="/">Главная</a></li>
-                        <li><a href="{% url 'about' %}">О проекте</a></li>
-                        <li><a href="{% url 'forum' %}">Форум</a></li>
-                        <li><a href="{% url 'login' %}">Вход</a></li>
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="{% url 'about' %}">О проекте</a></li>
+                    <li><a href="{% url 'forum' %}">Форум</a></li>
+                    <li><a href="{% url 'login' %}">Вход</a></li>
                     {% endif %}
 
                 </nav>
@@ -64,7 +67,7 @@
     <div class="main-content">
         <div class="two-thirds">
             {% block two-thirds-one %}
-
+            <div class="ymaps" id="map"></div>
             {% endblock %}
             <!-- Первая часть занимает 2/3 экрана -->
             <!-- <h2>Первая часть</h2> -->
@@ -84,12 +87,18 @@
             </div>
             <div class="row">
                 {% block one-third-three %}
+                <b>Здесь может быть Ваша реклама</b>
                 {% endblock %}
                 <!-- <h3>Вторая часть - Строка 3</h3> -->
+            </div>
+            <div class="promotion">
+                {% block promotion %}
+                {% endblock %}
             </div>
         </div>
     </div>
     <script src="{% static '/js/script.js' %}" defer></script>
+
 </body>
 
 </html>

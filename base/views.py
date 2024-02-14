@@ -133,7 +133,7 @@ class MyPets(View):
         user = request.user
         pets = Pet.objects.filter(owners=user)
         photos = PetPhoto.objects.filter(pet=user)
-        context = {'pets': pets, 'photos': photos, 'message': message}
+        context = {'pets': pets, 'photos': photos, 'my_range': range(3), 'message': message}
         return render(request, 'base/my_pets.html', context=context)
 
 

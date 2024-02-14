@@ -1,4 +1,6 @@
 {% extends 'base/base.html' %}
+{% load static %}
+
 
 {% block one-third-one %}
     {% if user.is_authenticated %}
@@ -12,4 +14,10 @@
         <p> Чтобы оставить комментарий, необходимо <a href="{% url 'login' %}">войти</a> или <a href="/reg_user">зарегистрироваться.</a> </p>
     {% endif %}
 
+{% endblock %}
+
+{% block promotion %}
+    <div class="promotion">
+        <a href="https://go.2038.pro/56b8f853f835b5d0?m=32"><img src="{% static 'img/3_VK_1000x700.jpg' %}" width="250" height="175"></a>
+    </div>
 {% endblock %}
