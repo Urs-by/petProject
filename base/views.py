@@ -52,13 +52,15 @@ class SetRatingView(View):
             form = ShopForm(request.POST)
             message = 'Ваша оценка не сохранена!'
             if form.is_valid():
+                latitude = form.cleaned_data['latitude']
+                longitude = form.cleaned_data['longitude']
                 shop_name = form.cleaned_data['shop_name']
                 legal_name = form.cleaned_data['legal_name']
                 city = form.cleaned_data['city']  #
                 street = form.cleaned_data['street']
                 users_rating = form.cleaned_data['user_rating']
                 comment = form.cleaned_data['comment']
-                review = Shop.objects.create(shop_name=shop_name, legal_name=legal_name, city=city, street=street)
+                review = Shop.objects.create(coordinates_lat=latitude, coordinates_lng=longitude, shop_name=shop_name, legal_name=legal_name, city=city, street=street)
                 UserShopRating.objects.create(user=request.user, shop=review, users_rating=users_rating,
                                               comment=comment)
                 logger.info('Rating is saved')

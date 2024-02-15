@@ -6,10 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% block script %}
     <script src="https://api-maps.yandex.ru/2.1/?apikey=bb29728e-d4fe-4d8a-a24a-682fdb8da56f&lang=ru_RU"
         type="text/javascript">
         </script>
+
     <script src="{% static '/js/mapscript.js' %}" defer></script>
+    {% endblock %}
     <title>{% block title %}{% endblock %}</title>
 </head>
 

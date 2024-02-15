@@ -12523,3 +12523,913 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 's
 [INFO    :                base.views] - 2024-02-14 12:13:59,820 : index @ 0013: Index page accessed
 [INFO    :             django.server] - 2024-02-14 12:13:59,835 : log_message @ 0212: "GET / HTTP/1.1" 200 3800
 [INFO    :             django.server] - 2024-02-14 12:13:59,931 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-14 15:39:11,406 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-14 15:39:14,493 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 15:39:14,588 : log_message @ 0212: "GET / HTTP/1.1" 200 3800
+[INFO    :             django.server] - 2024-02-14 15:39:14,767 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 15:39:14,769 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 15:39:14,831 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-02-14 15:39:16,318 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-14 15:39:16,319 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :   django.utils.autoreload] - 2024-02-14 16:41:14,933 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-14 16:41:17,532 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 16:41:17,570 : log_message @ 0212: "GET / HTTP/1.1" 200 3899
+[INFO    :             django.server] - 2024-02-14 16:41:17,788 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 16:41:17,956 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1909
+[WARNING :            django.request] - 2024-02-14 16:41:19,097 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-14 16:41:19,098 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :   django.utils.autoreload] - 2024-02-14 16:42:20,511 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-14 16:42:22,821 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 16:42:22,852 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 16:42:22,998 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-14 16:43:50,872 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 16:43:50,881 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 16:43:51,029 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-14 16:43:54,643 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 16:43:54,658 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 16:43:54,866 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-14 16:43:54,879 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-14 16:43:54,890 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1909
+[INFO    :             django.server] - 2024-02-14 16:43:54,892 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-14 16:43:55,051 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-14 16:43:55,082 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-14 16:43:55,725 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-14 16:43:55,726 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-14 16:52:46,431 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 16:52:46,440 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 16:52:46,475 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 16:52:46,502 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 837
+[INFO    :                base.views] - 2024-02-14 16:55:49,930 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 16:55:49,951 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 16:55:50,013 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 16:55:50,038 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1802
+[INFO    :                base.views] - 2024-02-14 16:56:01,643 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 16:56:01,651 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 16:56:01,701 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-14 17:02:28,823 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 17:02:28,831 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 17:02:28,957 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 17:02:29,005 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1821
+[INFO    :                base.views] - 2024-02-14 17:07:05,480 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 17:07:05,491 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 17:07:05,579 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-14 17:07:05,627 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1824
+[INFO    :                base.views] - 2024-02-14 17:07:07,251 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 17:07:07,267 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 17:07:07,326 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-14 17:07:09,912 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 17:07:09,920 : log_message @ 0212: "GET / HTTP/1.1" 200 3892
+[INFO    :             django.server] - 2024-02-14 17:07:09,956 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-14 17:07:09,966 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-14 17:07:09,992 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-14 17:07:10,047 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1824
+[INFO    :             django.server] - 2024-02-14 17:07:10,069 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-14 17:07:10,191 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-14 17:07:10,651 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-14 17:07:10,654 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-14 17:07:36,279 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-14 17:07:36,302 : log_message @ 0212: "GET / HTTP/1.1" 200 3895
+[INFO    :             django.server] - 2024-02-14 17:07:36,360 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-15 09:59:16,556 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 09:59:19,257 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 09:59:19,311 : log_message @ 0212: "GET / HTTP/1.1" 200 3895
+[INFO    :             django.server] - 2024-02-15 09:59:19,371 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 09:59:19,376 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 09:59:19,582 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2571
+[WARNING :            django.request] - 2024-02-15 09:59:20,936 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 09:59:20,937 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:03:29,978 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:03:29,988 : log_message @ 0212: "GET / HTTP/1.1" 200 3895
+[INFO    :             django.server] - 2024-02-15 10:03:30,059 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2850
+[INFO    :                base.views] - 2024-02-15 10:03:33,437 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:03:33,444 : log_message @ 0212: "GET / HTTP/1.1" 200 3895
+[INFO    :             django.server] - 2024-02-15 10:03:33,480 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:03:33,486 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:03:33,503 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:03:33,556 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2850
+[INFO    :             django.server] - 2024-02-15 10:03:33,563 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:03:33,678 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:03:33,928 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:03:33,929 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:13:55,241 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:13:55,250 : log_message @ 0212: "GET / HTTP/1.1" 200 3895
+[INFO    :             django.server] - 2024-02-15 10:13:55,332 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:13:55,337 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:13:55,344 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:13:55,414 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3401
+[INFO    :             django.server] - 2024-02-15 10:13:55,424 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:13:55,609 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:13:56,425 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:13:56,427 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:14:49,726 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:14:49,737 : log_message @ 0212: "GET / HTTP/1.1" 200 3804
+[INFO    :             django.server] - 2024-02-15 10:14:49,775 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:14:49,777 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:14:49,786 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:14:49,794 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3401
+[INFO    :             django.server] - 2024-02-15 10:14:49,804 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:14:49,867 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:14:50,186 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:14:50,187 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:15:30,481 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:15:30,488 : log_message @ 0212: "GET / HTTP/1.1" 200 3804
+[INFO    :             django.server] - 2024-02-15 10:15:30,523 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:15:30,524 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:15:30,539 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:15:30,555 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3333
+[INFO    :             django.server] - 2024-02-15 10:15:30,570 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:15:30,621 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:15:30,958 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:15:30,960 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:16:11,274 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:16:11,284 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:16:11,319 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:16:11,328 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:16:11,334 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:16:11,356 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3333
+[INFO    :             django.server] - 2024-02-15 10:16:11,364 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:16:11,420 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:16:11,754 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:16:11,761 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:16:14,639 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:16:14,646 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :                base.views] - 2024-02-15 10:16:15,333 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:16:15,339 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :                base.views] - 2024-02-15 10:17:15,034 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:17:15,042 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:17:15,082 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:17:15,082 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:17:15,093 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:17:15,105 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3347
+[INFO    :             django.server] - 2024-02-15 10:17:15,115 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:17:15,171 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:17:15,436 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:17:15,437 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:18:32,823 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:18:32,830 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:18:32,887 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3403
+[INFO    :                base.views] - 2024-02-15 10:18:39,206 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:18:39,213 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:18:39,241 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:18:39,261 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:18:39,267 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:18:39,280 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3403
+[INFO    :             django.server] - 2024-02-15 10:18:39,293 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:18:39,366 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:18:39,630 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:18:39,631 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:19:53,843 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:19:53,850 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:19:53,889 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:19:53,891 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:19:53,898 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:19:53,908 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3395
+[INFO    :             django.server] - 2024-02-15 10:19:53,915 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:19:53,984 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:19:54,268 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:19:54,271 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:20:17,996 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:20:18,003 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:20:18,059 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3331
+[INFO    :                base.views] - 2024-02-15 10:20:22,230 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:20:22,237 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:20:22,289 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 10:20:24,493 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:20:24,500 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:20:24,535 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:20:24,551 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:20:24,562 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:20:24,583 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3331
+[INFO    :             django.server] - 2024-02-15 10:20:24,591 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:20:24,639 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:20:24,921 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:20:24,922 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:21:07,969 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:21:07,977 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:21:08,031 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3419
+[INFO    :                base.views] - 2024-02-15 10:22:16,605 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:22:16,612 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:22:16,652 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:22:16,653 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:22:16,661 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:22:16,669 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3431
+[INFO    :             django.server] - 2024-02-15 10:22:16,678 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:22:16,754 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:22:17,030 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:22:17,031 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 10:23:13,753 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:23:13,760 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:23:13,813 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3434
+[INFO    :                base.views] - 2024-02-15 10:25:40,889 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:25:40,897 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:25:40,970 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3464
+[INFO    :                base.views] - 2024-02-15 10:26:21,645 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:26:21,654 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:26:21,707 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3470
+[INFO    :                base.views] - 2024-02-15 10:27:37,451 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:27:37,460 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:27:37,517 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2573
+[INFO    :                base.views] - 2024-02-15 10:28:04,954 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:28:04,962 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:28:05,014 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2570
+[INFO    :                base.views] - 2024-02-15 10:32:17,242 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:32:17,250 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:32:17,308 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2705
+[INFO    :                base.views] - 2024-02-15 10:33:50,886 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:33:50,893 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:33:50,962 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2570
+[INFO    :                base.views] - 2024-02-15 10:40:05,691 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 10:40:05,699 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 10:40:05,742 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 10:40:05,744 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 10:40:05,756 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 10:40:05,769 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2542
+[INFO    :             django.server] - 2024-02-15 10:40:05,778 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 10:40:05,834 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 10:40:06,599 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 10:40:06,601 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 11:02:23,188 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:02:23,196 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:02:23,240 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 11:02:23,241 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 11:02:23,249 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 11:02:23,262 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2566
+[INFO    :             django.server] - 2024-02-15 11:02:23,277 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 11:02:23,589 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 11:02:24,343 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 11:02:24,344 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :   django.utils.autoreload] - 2024-02-15 11:03:06,310 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 11:03:08,046 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:03:08,082 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:03:08,171 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 11:03:39,428 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:03:39,435 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:03:39,594 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2566
+[INFO    :                base.views] - 2024-02-15 11:03:58,116 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:03:58,123 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:03:58,158 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 11:03:58,158 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 11:03:58,181 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 11:03:58,196 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2566
+[INFO    :             django.server] - 2024-02-15 11:03:58,218 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 11:03:58,259 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 11:03:58,584 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 11:03:58,585 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 11:04:02,811 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:04:02,819 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:04:02,858 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 11:04:02,858 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 11:04:02,869 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 11:04:02,877 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2566
+[INFO    :             django.server] - 2024-02-15 11:04:02,887 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 11:04:02,947 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 11:04:03,285 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 11:04:03,286 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 11:06:47,643 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:06:47,651 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:06:47,689 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 11:06:47,692 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 11:06:47,698 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 11:06:47,710 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2539
+[INFO    :             django.server] - 2024-02-15 11:06:47,719 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 11:06:47,783 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 11:06:48,186 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 11:06:48,195 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 11:52:22,930 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:52:22,942 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:52:22,987 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 11:52:22,993 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 11:52:23,002 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 11:52:23,015 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1344
+[INFO    :             django.server] - 2024-02-15 11:52:23,024 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 11:52:23,110 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 11:52:23,516 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 11:52:23,517 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 11:54:28,387 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 11:54:28,394 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 11:54:28,447 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1488
+[INFO    :                base.views] - 2024-02-15 12:03:31,792 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:03:31,800 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:03:31,859 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1457
+[INFO    :                base.views] - 2024-02-15 12:53:55,168 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:53:55,176 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:53:55,218 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 12:53:55,227 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 12:53:55,235 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 12:53:55,244 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1903
+[INFO    :             django.server] - 2024-02-15 12:53:55,255 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 12:53:55,323 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 12:53:55,910 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 12:53:55,912 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 12:54:41,566 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:54:41,573 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:54:41,627 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1927
+[INFO    :                base.views] - 2024-02-15 12:54:57,930 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:54:57,938 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:54:57,980 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 12:54:57,980 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 12:54:57,989 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 12:54:58,006 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1930
+[INFO    :             django.server] - 2024-02-15 12:54:58,016 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 12:54:58,075 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 12:54:58,334 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 12:54:58,335 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 12:55:48,435 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:55:48,443 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:55:48,480 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 12:55:48,481 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 12:55:48,488 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 12:55:48,504 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1534
+[INFO    :             django.server] - 2024-02-15 12:55:48,512 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 12:55:48,583 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 12:55:48,862 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 12:55:48,863 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 12:58:15,367 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:58:15,374 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:58:15,410 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 12:58:15,415 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 12:58:15,424 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 12:58:15,443 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1924
+[INFO    :             django.server] - 2024-02-15 12:58:15,453 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 12:58:15,515 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 12:58:15,801 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 12:58:15,803 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 12:59:04,441 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:59:04,448 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:59:04,491 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 12:59:04,492 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 12:59:04,514 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 12:59:04,522 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1985
+[INFO    :             django.server] - 2024-02-15 12:59:04,532 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 12:59:04,582 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 12:59:04,858 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 12:59:04,859 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 12:59:46,437 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 12:59:46,445 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 12:59:46,485 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 12:59:46,485 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 12:59:46,492 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 12:59:46,501 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1948
+[INFO    :             django.server] - 2024-02-15 12:59:46,510 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 12:59:46,567 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 12:59:46,851 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 12:59:46,852 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :   django.utils.autoreload] - 2024-02-15 13:06:33,276 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 13:06:35,847 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:06:35,879 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:06:36,052 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1920
+[INFO    :                base.views] - 2024-02-15 13:17:45,969 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:17:45,977 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:17:46,021 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:17:46,021 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:17:46,029 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:17:46,038 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1956
+[INFO    :             django.server] - 2024-02-15 13:17:46,049 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:17:46,113 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:17:46,966 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:17:46,967 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:21:37,880 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:21:37,888 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:21:37,938 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:21:37,941 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:21:37,948 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:21:37,962 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1953
+[INFO    :             django.server] - 2024-02-15 13:21:37,974 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:21:38,032 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:21:38,678 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:21:38,679 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:23:05,648 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:23:05,656 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:23:05,700 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:23:05,701 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:23:05,708 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:23:05,716 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1971
+[INFO    :             django.server] - 2024-02-15 13:23:05,734 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:23:05,797 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:23:06,076 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:23:06,078 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:23:26,800 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:23:26,807 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:23:26,849 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:23:26,849 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:23:26,857 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:23:26,864 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1950
+[INFO    :             django.server] - 2024-02-15 13:23:26,872 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:23:26,960 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:23:27,263 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:23:27,264 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:26:15,515 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:26:15,523 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:26:15,568 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:26:15,568 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:26:15,580 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:26:15,586 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2109
+[INFO    :             django.server] - 2024-02-15 13:26:15,597 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:26:15,682 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:26:15,991 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:26:15,993 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:29:53,457 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:29:53,465 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:29:53,507 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:29:53,507 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:29:53,516 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:29:53,527 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1971
+[INFO    :             django.server] - 2024-02-15 13:29:53,537 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:29:53,608 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:29:54,365 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:29:54,367 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:31:29,447 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:31:29,454 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:31:29,498 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:31:29,499 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:31:29,509 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:31:29,520 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1993
+[INFO    :             django.server] - 2024-02-15 13:31:29,529 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:31:29,593 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:31:30,016 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:31:30,018 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:33:27,107 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:33:27,119 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:33:27,167 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:33:27,168 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:33:27,176 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:33:27,195 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2908
+[INFO    :             django.server] - 2024-02-15 13:33:27,204 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:33:27,304 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:33:27,584 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:33:27,585 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:33:35,285 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:33:35,293 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:33:35,333 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:33:35,333 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:33:35,341 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:33:35,349 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2908
+[INFO    :             django.server] - 2024-02-15 13:33:35,357 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:33:35,443 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:33:35,767 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:33:35,768 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:33:38,213 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:33:38,219 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:33:38,270 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 13:33:53,294 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:33:53,301 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:33:53,342 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:33:53,343 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:33:53,359 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:33:53,366 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2926
+[INFO    :             django.server] - 2024-02-15 13:33:53,377 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:33:53,442 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:33:53,740 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:33:53,748 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:33:54,487 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:33:54,494 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:33:54,529 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:33:54,535 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:33:54,543 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:33:54,551 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2926
+[INFO    :             django.server] - 2024-02-15 13:33:54,561 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:33:54,632 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:33:54,934 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:33:54,935 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:34:59,425 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:34:59,432 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:34:59,469 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:34:59,470 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:34:59,477 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:34:59,488 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 3015
+[INFO    :             django.server] - 2024-02-15 13:34:59,496 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:34:59,562 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:34:59,856 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:34:59,857 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:41:40,032 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:41:40,039 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:41:40,083 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:41:40,089 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:41:40,097 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:41:40,116 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1345
+[INFO    :             django.server] - 2024-02-15 13:41:40,128 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:41:40,183 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:41:40,594 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:41:40,596 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:46:34,654 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:46:34,662 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:46:34,719 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:46:34,720 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:46:34,734 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:46:34,747 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1700
+[INFO    :             django.server] - 2024-02-15 13:46:34,765 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:46:34,819 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:46:35,514 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:46:35,516 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:47:23,980 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:47:23,988 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:47:24,030 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:47:24,030 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:47:24,038 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:47:24,045 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1666
+[INFO    :             django.server] - 2024-02-15 13:47:24,063 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:47:24,116 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:47:24,424 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:47:24,425 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-15 13:47:26,789 : log_message @ 0212: "GET /static/img/marker.png HTTP/1.1" 200 12828
+[INFO    :                base.views] - 2024-02-15 13:47:59,938 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:47:59,945 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:47:59,981 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:47:59,982 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:47:59,989 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:48:00,003 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1666
+[INFO    :             django.server] - 2024-02-15 13:48:00,013 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:48:00,073 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:48:00,363 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:48:00,364 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:48:20,463 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:48:20,470 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:48:20,507 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:48:20,509 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:48:20,517 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:48:20,525 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1666
+[INFO    :             django.server] - 2024-02-15 13:48:20,536 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:48:20,617 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:48:20,920 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:48:20,921 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:49:08,623 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:49:08,631 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:49:08,673 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:49:08,674 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:49:08,683 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:49:08,704 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1666
+[INFO    :             django.server] - 2024-02-15 13:49:08,713 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:49:08,780 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:49:09,055 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:49:09,057 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:49:58,978 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:49:58,986 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:49:59,024 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:49:59,026 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:49:59,035 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:49:59,051 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1666
+[INFO    :             django.server] - 2024-02-15 13:49:59,062 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:49:59,107 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:49:59,397 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:49:59,398 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 13:54:18,752 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 13:54:18,760 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 13:54:18,801 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 13:54:18,802 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 13:54:18,809 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 13:54:18,824 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1667
+[INFO    :             django.server] - 2024-02-15 13:54:18,833 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 13:54:18,904 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 13:54:19,567 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 13:54:19,571 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-15 13:54:21,450 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 200 7534
+[INFO    :             django.server] - 2024-02-15 15:23:40,798 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3597
+[INFO    :             django.server] - 2024-02-15 15:23:40,890 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1665
+[INFO    :                base.views] - 2024-02-15 15:23:45,756 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 15:23:45,763 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 15:23:45,827 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:23:48,819 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[INFO    :             django.server] - 2024-02-15 15:23:48,877 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-02-15 15:23:52,844 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 15:23:52,848 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :                base.views] - 2024-02-15 15:24:03,023 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 15:24:03,033 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 15:24:03,090 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:24:06,531 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:24:13,379 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3597
+[INFO    :             django.server] - 2024-02-15 15:24:13,434 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:24:26,661 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3597
+[INFO    :             django.server] - 2024-02-15 15:24:26,720 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 15:24:30,570 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 15:24:30,578 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 15:24:32,760 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[INFO    :             django.server] - 2024-02-15 15:24:32,823 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-02-15 15:24:35,707 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 15:24:35,708 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 15:30:54,330 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[INFO    :             django.server] - 2024-02-15 15:30:54,383 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 15:30:54,384 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 15:30:54,404 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1665
+[INFO    :             django.server] - 2024-02-15 15:30:54,417 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 15:30:54,474 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 15:30:54,983 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 15:30:54,987 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[WARNING :            django.request] - 2024-02-15 15:30:57,292 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 15:30:57,293 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :                base.views] - 2024-02-15 15:31:47,947 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 15:31:47,956 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 15:31:48,021 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:32:22,714 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[WARNING :            django.request] - 2024-02-15 15:32:24,934 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 15:32:24,936 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 15:32:27,586 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[INFO    :             django.server] - 2024-02-15 15:32:27,646 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 15:32:27,649 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 15:32:27,671 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1665
+[INFO    :             django.server] - 2024-02-15 15:32:27,686 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 15:32:27,798 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 15:32:28,129 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 15:32:28,130 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[WARNING :            django.request] - 2024-02-15 15:32:29,919 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 15:32:29,924 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 15:33:26,425 : log_message @ 0212: "GET /forum HTTP/1.1" 200 3457
+[INFO    :             django.server] - 2024-02-15 15:33:26,496 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:33:28,757 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:35:35,483 : log_message @ 0212: "GET /my_pets HTTP/1.1" 200 4831
+[INFO    :             django.server] - 2024-02-15 15:35:35,527 : log_message @ 0212: "GET /media/pets/15.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:35:35,527 : log_message @ 0212: "GET /media/pets/baunty.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:35:35,544 : log_message @ 0212: "GET /media/pets/359-0-bergamasco.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:35:35,545 : log_message @ 0212: "GET /media/pets/doberman.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:35:35,561 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 15:35:40,796 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3597
+[INFO    :                base.views] - 2024-02-15 15:36:33,270 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 15:36:33,280 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 15:36:35,131 : log_message @ 0212: "GET /reg_pet/ HTTP/1.1" 200 4135
+[WARNING :            django.request] - 2024-02-15 15:36:38,694 : log_response @ 0241: Not Found: /reg_pet/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 15:36:38,695 : log_message @ 0212: "GET /reg_pet/static/img/marker5.png HTTP/1.1" 404 4140
+[INFO    :   django.utils.autoreload] - 2024-02-15 16:03:34,769 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 16:03:36,758 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:03:36,804 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:03:36,994 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1886
+[INFO    :                base.views] - 2024-02-15 16:03:58,461 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:03:58,468 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:03:58,521 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1669
+[INFO    :             django.server] - 2024-02-15 16:04:00,661 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:04:23,593 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[INFO    :             django.server] - 2024-02-15 16:04:23,655 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-02-15 16:04:25,669 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:04:25,670 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 16:06:08,302 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[INFO    :             django.server] - 2024-02-15 16:06:08,362 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1895
+[WARNING :            django.request] - 2024-02-15 16:06:12,216 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:06:12,218 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 16:06:18,272 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3597
+[INFO    :             django.server] - 2024-02-15 16:06:18,328 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:07:06,334 : log_message @ 0212: "GET /my_rating HTTP/1.1" 200 3597
+[INFO    :             django.server] - 2024-02-15 16:07:06,375 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 16:07:06,376 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 16:07:06,393 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1895
+[INFO    :             django.server] - 2024-02-15 16:07:06,401 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 16:07:06,458 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 16:07:07,098 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 16:07:07,100 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 16:07:14,785 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:07:14,794 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:07:14,849 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:07:16,085 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[WARNING :            django.request] - 2024-02-15 16:07:18,142 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:07:18,143 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :                base.views] - 2024-02-15 16:16:54,243 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:16:54,251 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:16:54,317 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:17:03,074 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4870
+[WARNING :            django.request] - 2024-02-15 16:17:04,819 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:17:04,820 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :                base.views] - 2024-02-15 16:23:42,156 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:23:42,170 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:23:42,343 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2115
+[INFO    :             django.server] - 2024-02-15 16:23:51,342 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4983
+[INFO    :             django.server] - 2024-02-15 16:23:51,397 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-02-15 16:23:55,487 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:23:55,488 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 16:27:05,032 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4983
+[INFO    :             django.server] - 2024-02-15 16:27:05,094 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2127
+[WARNING :            django.request] - 2024-02-15 16:27:08,597 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:27:08,598 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 16:27:12,702 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4983
+[INFO    :             django.server] - 2024-02-15 16:27:12,738 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 16:27:12,761 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 16:27:12,785 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 2127
+[INFO    :             django.server] - 2024-02-15 16:27:12,803 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 16:27:12,860 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 16:27:13,468 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 16:27:13,472 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[WARNING :            django.request] - 2024-02-15 16:27:15,730 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:27:15,732 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :                base.views] - 2024-02-15 16:27:18,782 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:27:18,788 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:27:18,844 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 16:28:38,445 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:28:38,461 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:28:38,557 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 16:28:38,563 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 16:28:38,581 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 16:28:38,595 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1965
+[INFO    :             django.server] - 2024-02-15 16:28:38,611 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 16:28:38,639 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 16:28:39,010 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 16:28:39,011 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :   django.utils.autoreload] - 2024-02-15 16:33:06,095 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 16:33:07,853 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 16:33:12,568 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:33:12,604 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:33:12,710 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:33:17,594 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 5270
+[WARNING :            django.request] - 2024-02-15 16:33:21,957 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:33:21,960 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :   django.utils.autoreload] - 2024-02-15 16:37:33,743 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 16:37:35,132 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-15 16:38:13,035 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 16:38:14,388 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 16:38:15,977 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:38:16,010 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:38:16,074 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:38:20,976 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4134
+[WARNING :            django.request] - 2024-02-15 16:38:26,977 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:38:26,980 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :                base.views] - 2024-02-15 16:46:55,765 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:46:55,774 : log_message @ 0212: "GET / HTTP/1.1" 200 3801
+[INFO    :             django.server] - 2024-02-15 16:46:55,988 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1669
+[INFO    :             django.server] - 2024-02-15 16:46:58,771 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 16:50:16,816 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:50:16,827 : log_message @ 0212: "GET / HTTP/1.1" 200 3863
+[INFO    :             django.server] - 2024-02-15 16:50:16,864 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 16:50:16,873 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 16:50:16,880 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 16:50:16,886 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 16:50:16,969 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 16:50:17,396 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 16:50:17,398 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :                base.views] - 2024-02-15 16:51:39,660 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:51:39,674 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 16:51:39,819 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 16:52:44,417 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:52:44,428 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 16:52:44,469 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 16:52:44,469 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 16:52:44,477 : log_message @ 0212: "GET /static/img/3_VK_1000x700.jpg HTTP/1.1" 200 455188
+[INFO    :             django.server] - 2024-02-15 16:52:44,485 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1669
+[INFO    :             django.server] - 2024-02-15 16:52:44,493 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 16:52:44,553 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 16:52:44,844 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 16:52:44,845 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-15 16:52:50,384 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4136
+[WARNING :            django.request] - 2024-02-15 16:52:52,601 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 16:52:52,603 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 16:53:18,252 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4134
+[INFO    :             django.server] - 2024-02-15 16:53:18,313 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 903
+[INFO    :             django.server] - 2024-02-15 16:55:07,691 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4134
+[INFO    :             django.server] - 2024-02-15 16:55:07,759 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1599
+[INFO    :                base.views] - 2024-02-15 16:55:10,476 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 16:55:10,485 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 16:55:10,538 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:55:13,909 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4134
+[INFO    :             django.server] - 2024-02-15 16:55:13,976 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 16:59:30,699 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 16:59:30,760 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1615
+[INFO    :             django.server] - 2024-02-15 17:03:23,089 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:03:23,146 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 649
+[INFO    :             django.server] - 2024-02-15 17:08:48,785 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:08:48,829 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 17:08:48,829 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 17:08:48,845 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 526
+[INFO    :             django.server] - 2024-02-15 17:08:48,852 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 17:08:48,921 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 17:08:49,570 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 17:08:49,572 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-15 17:09:11,030 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:09:11,084 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 413
+[INFO    :             django.server] - 2024-02-15 17:10:49,222 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:10:49,308 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 952
+[INFO    :                base.views] - 2024-02-15 17:15:21,641 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 17:15:21,651 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 17:15:21,710 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1681
+[INFO    :             django.server] - 2024-02-15 17:15:24,566 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 17:15:46,929 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:15:46,991 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1124
+[INFO    :             django.server] - 2024-02-15 17:16:42,291 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:16:42,355 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1155
+[INFO    :             django.server] - 2024-02-15 17:18:19,054 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:18:19,114 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1577
+[WARNING :            django.request] - 2024-02-15 17:18:22,071 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 17:18:22,072 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[WARNING :            django.request] - 2024-02-15 17:18:23,880 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 17:18:23,882 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[WARNING :            django.request] - 2024-02-15 17:18:25,031 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 17:18:25,032 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 17:18:53,264 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:18:53,307 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 17:18:53,307 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 17:18:53,326 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1577
+[INFO    :             django.server] - 2024-02-15 17:18:53,336 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 17:18:53,608 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 17:18:54,314 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 17:18:54,317 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-15 17:20:48,882 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:20:48,927 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 17:20:48,932 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 17:20:48,944 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1577
+[INFO    :             django.server] - 2024-02-15 17:20:48,955 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 17:20:49,046 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 17:20:49,331 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 17:20:49,332 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-15 17:28:34,608 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:28:34,666 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1594
+[WARNING :            django.request] - 2024-02-15 17:28:35,763 : log_response @ 0241: Not Found: /set_rating/static/img/marker5.png
+[WARNING :             django.server] - 2024-02-15 17:28:35,764 : log_message @ 0212: "GET /set_rating/static/img/marker5.png HTTP/1.1" 404 4149
+[INFO    :             django.server] - 2024-02-15 17:29:42,568 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:29:42,626 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 901
+[INFO    :             django.server] - 2024-02-15 17:32:02,582 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:32:02,624 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 17:32:02,624 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 17:32:02,641 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1452
+[INFO    :             django.server] - 2024-02-15 17:32:02,652 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 17:32:02,720 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 17:32:03,347 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 17:32:03,348 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :             django.server] - 2024-02-15 17:34:53,527 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 3923
+[INFO    :             django.server] - 2024-02-15 17:34:53,572 : log_message @ 0212: "GET /static/img/logo/mini-dog-logo.png HTTP/1.1" 200 3814
+[INFO    :             django.server] - 2024-02-15 17:34:53,572 : log_message @ 0212: "GET /static/css/style.css HTTP/1.1" 200 8355
+[INFO    :             django.server] - 2024-02-15 17:34:53,587 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1452
+[INFO    :             django.server] - 2024-02-15 17:34:53,597 : log_message @ 0212: "GET /static/js/script.js HTTP/1.1" 200 344
+[INFO    :             django.server] - 2024-02-15 17:34:53,669 : log_message @ 0212: "GET /static/fonts/OpenSans-Regular.ttf HTTP/1.1" 200 130832
+[WARNING :            django.request] - 2024-02-15 17:34:53,957 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-02-15 17:34:53,958 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4083
+[INFO    :   django.utils.autoreload] - 2024-02-15 18:34:54,610 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 18:34:56,457 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 18:35:03,631 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 18:35:03,663 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 18:35:03,834 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1419
+[INFO    :             django.server] - 2024-02-15 18:35:06,392 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:35:06,457 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 18:35:06,923 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 200 111502
+[INFO    :             django.server] - 2024-02-15 18:39:03,392 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:46:17,205 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:46:17,270 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1365
+[INFO    :             django.server] - 2024-02-15 18:46:18,280 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 18:51:26,424 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:51:26,487 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1911
+[INFO    :             django.server] - 2024-02-15 18:52:01,915 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:52:01,975 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 18:53:00,953 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:53:01,017 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1932
+[INFO    :             django.server] - 2024-02-15 18:56:23,779 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:56:23,837 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 1933
+[INFO    :             django.server] - 2024-02-15 18:56:24,328 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 18:58:27,352 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4278
+[INFO    :             django.server] - 2024-02-15 18:58:27,409 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 200 2013
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:03:02,659 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:03:04,045 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-15 19:03:09,360 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 5059
+[INFO    :             django.server] - 2024-02-15 19:03:09,543 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 19:04:03,715 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 5059
+[INFO    :             django.server] - 2024-02-15 19:04:03,769 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 19:07:20,548 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 5157
+[INFO    :             django.server] - 2024-02-15 19:07:20,605 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 19:07:21,455 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:25:23,607 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:25:25,071 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:33:43,853 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:33:45,278 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:34:57,697 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:34:59,080 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 19:35:01,059 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 19:35:01,095 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 19:35:01,285 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 200 1420
+[INFO    :             django.server] - 2024-02-15 19:35:04,879 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4939
+[INFO    :             django.server] - 2024-02-15 19:35:04,940 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 19:35:06,117 : log_message @ 0212: "GET /static/img/marker5.png HTTP/1.1" 304 0
+[INFO    :                base.views] - 2024-02-15 19:36:17,546 : post @ 0064: Rating is saved
+[INFO    :             django.server] - 2024-02-15 19:36:17,549 : log_message @ 0212: "POST /set_rating/ HTTP/1.1" 200 3443
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:39:03,173 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:39:04,758 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 19:39:06,730 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 19:39:06,761 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 19:39:06,824 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-15 19:39:09,085 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4939
+[INFO    :             django.server] - 2024-02-15 19:39:09,146 : log_message @ 0212: "GET /static/js/setnote.js HTTP/1.1" 304 0
+[ERROR   :            django.request] - 2024-02-15 19:40:08,092 : log_response @ 0241: Internal Server Error: /set_rating/
+Traceback (most recent call last):
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py", line 63, in post
+    review = Shop.objects.create(latitude=latitude, longitude=longitude, shop_name=shop_name, legal_name=legal_name, city=city, street=street)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\db\models\query.py", line 675, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\korotkevich\PycharmProjects\petProject\venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Shop() got unexpected keyword arguments: 'latitude', 'longitude'
+[ERROR   :             django.server] - 2024-02-15 19:40:08,103 : log_message @ 0212: "POST /set_rating/ HTTP/1.1" 500 95836
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:42:07,719 : trigger_reload @ 0266: C:\Users\korotkevich\PycharmProjects\petProject\friendlydogs\base\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-15 19:42:09,020 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :                base.views] - 2024-02-15 19:42:10,676 : index @ 0013: Index page accessed
+[INFO    :             django.server] - 2024-02-15 19:42:10,708 : log_message @ 0212: "GET / HTTP/1.1" 200 3811
+[INFO    :             django.server] - 2024-02-15 19:42:13,650 : log_message @ 0212: "GET /set_rating/ HTTP/1.1" 200 4939
+[INFO    :                base.views] - 2024-02-15 19:43:11,657 : post @ 0066: Rating is saved
+[INFO    :             django.server] - 2024-02-15 19:43:11,660 : log_message @ 0212: "POST /set_rating/ HTTP/1.1" 200 3443
+[INFO    :             django.server] - 2024-02-15 19:43:11,725 : log_message @ 0212: "GET /static/js/mapscript.js HTTP/1.1" 304 0
