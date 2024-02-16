@@ -23,7 +23,7 @@ ymaps.ready(function () {
         var placemark = new ymaps.Placemark([shop.latitude, shop.longitude], {
 
             hintContent: shop.name,
-            balloonContent: 'Rating: ' + shop.rating.toFixed(2)
+            balloonContent: 'Оценка: ' + shop.rating.toFixed(2) + '<br>' + 'Отзыв: ' + shop.comment
         }, {
             //    cтилизуем иконку
             iconLayout: 'default#image',
