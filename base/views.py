@@ -16,9 +16,14 @@ def index(request):
 
 
 def show_map(request):
-    shops = Shop.objects.all()
-    data = [{'name': shop.shop_name, 'latitude': shop.coordinates_lat, 'longitude': shop.coordinates_lng,
-             'rating': float(shop.total_rating)} for shop in shops if shop.coordinates_lat and shop.coordinates_lng]
+    # shops = Shop.objects.all()
+    # data = [{'name': shop.shop_name, 'latitude': shop.coordinates_lat, 'longitude': shop.coordinates_lng,
+    #          'rating': float(shop.total_rating)} for shop in shops if shop.coordinates_lat and shop.coordinates_lng]
+    shops = UserShopRating.objects.select_related('shop').all()
+
+    data = [{'name': shop.shop.shop_name, 'latitude': shop.shop.coordinates_lat, 'longitude': shop.shop.coordinates_lng,
+             'rating': float(shop.users_rating), 'comment': shop.comment} for shop in shops if
+            shop.shop.coordinates_lat and shop.shop.coordinates_lng]
 
     return render(request, 'base/home.html', {'data': data})
 
