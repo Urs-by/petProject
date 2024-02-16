@@ -9,11 +9,6 @@ from django.dispatch import receiver
 
 
 # Create your models here.
-# def user_image_path(instance, filename):
-#     ext = filename.split('.')[-1]
-#     filename = f"{uuid4().hex}.{ext}"
-#     return os.path.join('user_images', str(instance.pet.id), filename)
-
 
 class UserCustom(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
@@ -54,7 +49,7 @@ class Shop(models.Model):
     total_rating = models.DecimalField(max_digits=3, decimal_places=2, blank=True, null=True)
 
     def __str__(self):
-        return f'{self.shop_name} , {self.rating}, {self.coordinates_lat}, {self.coordinates_lng}'
+        return f'{self.shop_name} , {self.total_rating}, {self.coordinates_lat}, {self.coordinates_lng}'
 
 
 class UserShopRating(models.Model):

@@ -10,7 +10,7 @@
     <script src="https://api-maps.yandex.ru/2.1/?apikey=bb29728e-d4fe-4d8a-a24a-682fdb8da56f&lang=ru_RU"
         type="text/javascript">
         </script>
-
+    <script >var data = {{ shop_data|safe }}</script>
     <script src="{% static '/js/mapscript.js' %}" defer></script>
     {% endblock %}
     <title>{% block title %}{% endblock %}</title>
@@ -94,10 +94,11 @@
                 {% endblock %}
                 <!-- <h3>Вторая часть - Строка 3</h3> -->
             </div>
+            {% block promotion %}
             <div class="promotion">
-                {% block promotion %}
-                {% endblock %}
             </div>
+            {% endblock %}
+
         </div>
     </div>
     <script src="{% static '/js/script.js' %}" defer></script>

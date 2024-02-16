@@ -1,22 +1,27 @@
 {% extends 'base/base.html' %}
 {% load static %}
 {% block script %}
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=bb29728e-d4fe-4d8a-a24a-682fdb8da56f&lang=ru_RU"
-        type="text/javascript">
+<script src="https://api-maps.yandex.ru/2.1/?apikey=bb29728e-d4fe-4d8a-a24a-682fdb8da56f&lang=ru_RU"
+    type="text/javascript">
     </script>
 
-    <script src="{% static '/js/setnote.js' %}" defer></script>
+<script src="{% static '/js/setnote.js' %}" defer></script>
 {% endblock %}
 {% block one-third-one %}
-    {% if user.is_authenticated %}
-        <h4>{{ message }}</h4>
-       <form method="post" enctype="multipart/form-data">
-           {% csrf_token %}
-           {{ form }}
-           <input class="form-registration" type="submit" value="Поставить оценку">
-       </form>
-    {% else %}
-         <a href="{% url 'login' %}">войти</a>
-    {% endif %}
+{% if user.is_authenticated %}
+<h4>{{ message }}</h4>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form }}
+    <input class="form-registration" type="submit" value="Поставить оценку">
+</form>
+{% else %}
+<a href="{% url 'login' %}">войти</a>
+{% endif %}
 {% endblock %}
 
+{% block one-third-three %}
+{% endblock %}
+
+{% block promotion %}
+{% endblock %}

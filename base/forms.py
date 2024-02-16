@@ -35,11 +35,10 @@ class PetPhotoForm(forms.Form):
 
 
 class ShopForm(forms.Form):
-    latitude = forms.FloatField(required=False, label="Широта", widget=forms.HiddenInput)
-    longitude = forms.FloatField(required=False, label="Долгота,", widget=forms.HiddenInput)
-    city = forms.CharField(max_length=50, label="Город")
-    street = forms.CharField(max_length=50, label="Улица",
-                             widget=forms.TextInput(attrs={'placeholder': 'ул.Кирова'}))
+    latitude = forms.FloatField(required=False, label="Широта", )
+    longitude = forms.FloatField(required=False, label="Долгота")
+    city = forms.CharField(max_length=50, label="Город",widget=forms.HiddenInput)
+    street = forms.CharField(max_length=50, label="Улица", widget=forms.HiddenInput)
     shop_name = forms.CharField(max_length=50, label="Название магазина")
     legal_name = forms.CharField(max_length=50, required=False, label="Юридическое название",
                                  widget=forms.TextInput(attrs={'placeholder': 'Если есть'}))

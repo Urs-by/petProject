@@ -1,8 +1,5 @@
-ymaps.ready(init);
-
-
-
-function init() {
+// отрисовываем карту по умолчанию
+ymaps.ready(function () {
     var geolocation = ymaps.geolocation,
         myMap = new ymaps.Map('map', {
             center: [55, 34],
@@ -10,7 +7,7 @@ function init() {
         }, {
             searchControlProvider: 'yandex#search'
         });
-
+    // отрисовка карты местности по текущему местораположению (по ip )
     geolocation.get({
         autoReverseGeocode: false,
         mapStateAutoApply: true
@@ -20,26 +17,23 @@ function init() {
         myMap.geoObjects.add(result.geoObjects);
     });
 
-    var myPlacemark;
-    myMap.events.add('click', function (e) {
-        var coords = e.get('coords');
 
-        if (myPlacemark) {
+    // Получаем данные из view  data
+    data.forEach(function (shop) {
+        var placemark = new ymaps.Placemark([shop.latitude, shop.longitude], {
 
-            myPlacemark.geometry.setCoordinates(coords);
-        } else {
-            myPlacemark = new ymaps.Placemark(coords, {}, {
-                iconLayout: 'default#image',
-                iconImageHref: "static/img/marker5.png", // Кастомный макет иконки в формате PNG
-                iconImageSize: [35, 60], // Размер иконки
-                iconImageOffset: [-25, -25], // Смещение иконки
-                draggable: true
-            });
-
-            myMap.geoObjects.add(myPlacemark);
-        }
+            hintContent: shop.name,
+            balloonContent: 'Rating: ' + shop.rating.toFixed(2)
+        }, {
+            //    cтилизуем иконку
+            iconLayout: 'default#image',
+            iconImageHref: "static/img/marker5.png", // Кастомный макет иконки в формате PNG
+            iconImageSize: [35, 60], // Размер иконки
+            iconImageOffset: [-25, -25], // Смещение иконки
+            draggable: true
+        });
+        myMap.geoObjects.add(placemark);
     });
-}
-
+});
 
 
