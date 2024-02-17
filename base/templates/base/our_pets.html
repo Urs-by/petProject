@@ -1,0 +1,14 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+{% block two-thirds-one %}
+    <h4>{{ message }}</h4>
+      <div class="photos-container">
+        {% for photo in photos %}
+            <div class="photo-container">
+                <img  src="{{ photo.image.url }}" alt="Photo" width="250" height="150">
+                <p>{{ photo.comment }}</p>
+            </div>
+        {% endfor %}
+     </div>
+{% endblock %}

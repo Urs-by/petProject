@@ -153,6 +153,14 @@ class MyPets(View):
         return render(request, 'base/my_pets.html', context=context)
 
 
+class OurPets(View):
+    def get(self, request):
+        message = 'Наши питомцы'
+        photos = PetPhoto.objects.all()
+        context = {'photos': photos, 'message': message}
+        return render(request, 'base/our_pets.html', context=context)
+
+
 class Forum(View):
     def get(self, request):
         message = 'Форум'

@@ -53,12 +53,14 @@
                     <li><a href="/">Главная</a></li>
                     <li><a href="{% url 'my_rating' %}">Мои оценки</a></li>
                     <li><a href="{% url 'my_pets' %}">Мои питомцы</a></li>
-                    <li><a href="{% url 'forum' %}">Форум</a></li>
+                    <li><a href="{% url 'our_pets' %}">Наши питомцы</a></li>
+<!--                    <li><a href="{% url 'forum' %}">Форум</a></li>-->
                     <li><a href="{% url 'exit' %}">Выход</a></li>
                     {% else %}
                     <li><a href="/">Главная</a></li>
                     <li><a href="{% url 'about' %}">О проекте</a></li>
-                    <li><a href="{% url 'forum' %}">Форум</a></li>
+                    <li><a href="{% url 'our_pets' %}">Наши питомцы</a></li>
+<!--                    <li><a href="{% url 'forum' %}">Форум</a></li>-->
                     <li><a href="{% url 'login' %}">Вход</a></li>
                     {% endif %}
 

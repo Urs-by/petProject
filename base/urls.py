@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 from .views import (UserRegistration, PetRegistration, SetRatingView,
-                    UploadPhotos, ExitView, MyRatings, MyPets, Forum, About)
+                    UploadPhotos, ExitView, MyRatings, MyPets, OurPets, Forum, About)
 
 # from django.contrib.auth import views as auth_views
 from django.conf import settings
@@ -20,6 +20,7 @@ urlpatterns = [
                   path('upload_photo', UploadPhotos.as_view(), name='photo'),
                   path('my_rating', MyRatings.as_view(), name='my_rating'),
                   path('my_pets', MyPets.as_view(), name='my_pets'),
+                  path('our_pets', OurPets.as_view(), name='our_pets'),
                   path('forum', Forum.as_view(), name='forum'),
                   path("about", About.as_view(), name="about"),
 
