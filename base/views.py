@@ -3,7 +3,6 @@ from django.contrib.auth import login, authenticate
 from django.views import View
 from .models import UserCustom, Pet, PetPhoto, Shop, UserShopRating
 from .forms import UserCustomForm, PetForm, PetPhotoForm, ShopForm, PetPhotoForm
-from django.http import JsonResponse
 
 import logging
 

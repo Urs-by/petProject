@@ -47,9 +47,5 @@ function init() {
             document.getElementById('id_city').value = city;
             document.getElementById('id_street').value = street;
         });
-
-
-
-
     });
 }
